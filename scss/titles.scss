@@ -1,0 +1,19 @@
+$title-coration-width: 100px;
+$title-coration-height: 90px;
+
+.titulo {
+  align-items: center;
+  display: flex;
+  font-size: 24px;
+  margin: 30px 150px -30px;
+
+  &::before {
+    background: url('assets/triangle.svg') no-repeat;
+    content: '';
+    height: $title-coration-height;
+    left: $title-coration-width / 2;
+    position: relative;
+    width: $title-coration-width;
+    z-index: -1;
+  }
+}

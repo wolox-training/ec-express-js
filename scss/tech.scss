@@ -1,0 +1,62 @@
+.cont-tec {
+  display: flex;
+  height: 400px;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin: 40px auto;
+  max-width: 1000px;
+  width: 100%;
+}
+
+.tecnologia {
+  background-color: #BED23C;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 230px;
+  margin: 30px 10px 0px 30px;
+  position: relative;
+  width: 170px;
+
+    &::before {
+      border-radius: 5px;
+      border-style: solid;
+      border-color: #BED23C;
+      background-color: #ffffff;
+      content: '';
+      height: 220px;
+      position: absolute;
+      left: -10px;
+      top: -10px;
+      width: 170px;
+      z-index: -1;
+  }
+}
+
+.logo {
+  align-self: center;
+  height: 80px;
+  padding: 5px;
+  width: 90px;
+}
+
+.nombre, .fecha, .info {
+    font-family: 'Roboto';
+    text-align: center;
+}
+
+.nombre {
+  font-size: 16px;
+  padding: 10px;
+}
+
+.fecha {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.info{
+  padding: 15px;
+  font-size: 12px;
+}
