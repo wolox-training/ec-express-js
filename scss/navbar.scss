@@ -1,0 +1,23 @@
+.navbar{
+  align-items: center;
+  border-style: inset;
+  display: flex;
+  justify-content: space-between;
+  height: 90px;
+  width: 1400px;
+  position: fixed;
+  background-color: #ffffff;
+  z-index: 1;
+}
+
+.navbar-logo{
+  height: 40px;
+  padding-left: 50px;
+  width: auto;
+}
+
+.navbar-title{
+  font-family: 'Roboto';
+  font-size: 24px;
+  padding-right: 50px;
+}
