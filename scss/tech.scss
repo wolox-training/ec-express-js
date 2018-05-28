@@ -1,4 +1,4 @@
-.cont-tec {
+.cont-tech {
   display: flex;
   height: 400px;
   justify-content: flex-start;
@@ -8,16 +8,15 @@
   width: 100%;
 }
 
-.tecnologia {
+.technology, .technology-large {
   background-color: #BED23C;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  height: 230px;
+  height: 250px;
   margin: 30px 10px 0px 30px;
   position: relative;
-  width: 170px;
+  width: 190px;
 
     &::before {
       border-radius: 5px;
@@ -25,38 +24,60 @@
       border-color: #BED23C;
       background-color: #ffffff;
       content: '';
-      height: 220px;
+      height: 250px;
       position: absolute;
-      left: -10px;
-      top: -10px;
-      width: 170px;
+      left: -12px;
+      top: -12px;
+      width: 190px;
       z-index: -1;
   }
 }
 
-.logo {
-  align-self: center;
-  height: 80px;
-  padding: 5px;
-  width: 90px;
+.technology-large{
+  height: 280px;
+    &::before{
+      height: 280px;
+    }
 }
 
-.nombre, .fecha, .info {
+.technology:hover, .technology-large:hover{
+  &::before{
+    left: 12px;
+    top: 12px;
+  }
+}
+
+.cont-logo {
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: center;
+	height: 100px;
+	width: 110px;
+}
+
+.logo{
+	height: 100px;
+	padding: 12px;
+	width: 110px;
+}
+
+.name, .date, .info {
     font-family: 'Roboto';
     text-align: center;
+    padding: 12px;
 }
 
-.nombre {
+.name {
   font-size: 16px;
-  padding: 10px;
+  padding: auto;
 }
 
-.fecha {
+.date {
   font-weight: bold;
   font-size: 14px;
 }
 
 .info{
-  padding: 15px;
   font-size: 12px;
 }
