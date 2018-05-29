@@ -2,7 +2,7 @@ $navbar-height: 90px;
 
 .navbar {
   align-items: center;
-  box-shadow: $grey-shadow;
+  box-shadow: 1px 14px 13px -3px $grey-shadow;
   display: flex;
   justify-content: space-between;
   height: $navbar-height;
