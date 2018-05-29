@@ -1,3 +1,5 @@
+@import 'variables/_colors';
+
 .cont-tech {
   display: flex;
   height: 400px;
@@ -8,8 +10,8 @@
   width: 100%;
 }
 
-.technology, .technology-large {
-  background-color: #BED23C;
+.technology{
+  background-color: $green;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
@@ -21,10 +23,10 @@
     &::before {
       border-radius: 5px;
       border-style: solid;
-      border-color: #BED23C;
-      background-color: #ffffff;
+      border-color: $green;
+      background-color: $white;
       content: '';
-      height: 250px;
+      height: 280px;
       position: absolute;
       left: -12px;
       top: -12px;
@@ -33,14 +35,7 @@
   }
 }
 
-.technology-large{
-  height: 280px;
-    &::before{
-      height: 280px;
-    }
-}
-
-.technology:hover, .technology-large:hover{
+.technology:hover{
   &::before{
     left: 12px;
     top: 12px;
@@ -63,9 +58,9 @@
 }
 
 .name, .date, .info {
-    font-family: 'Roboto';
-    text-align: center;
-    padding: 12px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  padding: 12px;
 }
 
 .name {
