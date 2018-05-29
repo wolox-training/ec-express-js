@@ -1,23 +1,24 @@
-.navbar{
+$navbar-height: 90px;
+
+.navbar {
   align-items: center;
   border-style: inset;
   display: flex;
   justify-content: space-between;
-  height: 90px;
+  height: $navbar-height;
   width: 100%;
   position: fixed;
-  background-color: #ffffff;
+  background-color: $white;
   z-index: 1;
 }
 
-.navbar-logo{
+.navbar-logo {
   height: 40px;
   padding-left: 50px;
   width: auto;
 }
 
-.navbar-title{
-  font-family: 'Roboto';
+.navbar-title {
   font-size: 24px;
   padding-right: 50px;
 }
