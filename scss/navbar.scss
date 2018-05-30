@@ -1,0 +1,24 @@
+$navbar-height: 90px;
+
+.navbar {
+  align-items: center;
+  box-shadow: 1px 14px 13px -3px $grey-shadow;
+  display: flex;
+  justify-content: space-between;
+  height: $navbar-height;
+  width: 100%;
+  position: fixed;
+  background-color: $white;
+  z-index: 1;
+}
+
+.navbar-logo {
+  height: 40px;
+  padding-left: 50px;
+  width: auto;
+}
+
+.navbar-title {
+  font-size: 24px;
+  padding-right: 50px;
+}

@@ -10,13 +10,13 @@
   width: 100%;
 }
 
-.technology{
+.technology {
   background-color: $green;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
   height: 280px;
-  margin: 30px 10px 0px 30px;
+  margin: 40px 10px 0px 30px;
   position: relative;
   width: 190px;
 
@@ -35,7 +35,7 @@
   }
 }
 
-.technology:hover{
+.technology:hover {
   &::before{
     left: 12px;
     top: 12px;
@@ -51,7 +51,7 @@
 	width: 110px;
 }
 
-.logo{
+.logo {
 	height: 100px;
 	padding: 12px;
 	width: 110px;
@@ -73,6 +73,6 @@
   font-size: 14px;
 }
 
-.info{
+.info {
   font-size: 12px;
 }
