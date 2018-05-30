@@ -42,10 +42,6 @@
   width: 190px;
 }
 
-.technology-large{
-  height: 280px;
-}
-
 .cont-logo {
 	display: flex;
 	margin-left: auto;
@@ -61,9 +57,9 @@
 }
 
 .name, .date, .info {
-    font-family: 'Roboto';
-    text-align: center;
-    padding: 12px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  padding: 12px;
 }
 
 .name {
