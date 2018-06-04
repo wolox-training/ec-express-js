@@ -8,14 +8,14 @@
   grid-template-rows: 300px 300px;
 }
 
-.item{
+.item {
   display: flex;
   flex-direction: column;
   height: 300px;
   width: 190px;
 }
 
-.item:first-child{
+.item:first-child {
   border-right: 2px solid $green;
   grid-row: 1 / span 2;
   display: flex;
@@ -33,7 +33,7 @@
 	width: 110px;
 }
 
-.logo{
+.logo {
   padding: 5px;
 	width: 100%;
 }
@@ -58,20 +58,20 @@
   font-size: 12px;
 }
 
-@media only screen and (max-width: 1024px){
-  div.grid-container{
+@media screen and (max-width: 1024px) {
+  .grid-container {
     grid-template-columns: repeat(1, max-content);
   }
-  div.item:first-child{
+  .item:first-child {
     grid-row: auto;
     border-right: none;
     height: 100%;
   }
-  div.item{
+  .item {
     border-bottom: 2px solid $green;
     margin-top: 30px;
   }
-  div.item:last-child{
+  .item:last-child {
     border-bottom: none;
   }
 }
