@@ -13,16 +13,17 @@
   flex-direction: column;
   height: 300px;
   width: 190px;
-}
 
-.item:first-child {
-  border-right: 2px solid $green;
-  grid-row: 1 / span 2;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 600px;
-  width: 190px;
+  &:first-child{
+    border-right: 2px solid $green;
+    grid-row: 1 / span 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 600px;
+    width: 190px;
+
+  }
 }
 
 .cont-logo {
@@ -59,19 +60,23 @@
 }
 
 @media screen and (max-width: 1024px) {
+
   .grid-container {
     grid-template-columns: repeat(1, max-content);
   }
-  .item:first-child {
-    grid-row: auto;
-    border-right: none;
-    height: 100%;
-  }
+
   .item {
     border-bottom: 2px solid $green;
     margin-top: 30px;
-  }
-  .item:last-child {
-    border-bottom: none;
+
+    &:first-child{
+      grid-row: auto;
+      border-right: none;
+      height: 100%;
+    }
+
+    &:last-child {
+      border-bottom: none;
+    }
   }
 }
