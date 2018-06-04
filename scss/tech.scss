@@ -1,23 +1,5 @@
 @import 'variables/_colors';
 
-@media only screen and (max-width: 1024px){
-  div.grid-container{
-    grid-template-columns: repeat(1, max-content);
-  }
-  div.item:first-child{
-    grid-row: auto;
-    border-right: none;
-    height: 100%;
-  }
-  div.item{
-    border-bottom: 2px solid $green;
-    margin-top: 30px;
-  }
-  div.item:last-child{
-    border-bottom: none;
-  }
-}
-
 .grid-container {
   align-items: center;
   justify-content: center;
@@ -34,7 +16,7 @@
 }
 
 .item:first-child{
-  border-right: 2px solid #BED23C;
+  border-right: 2px solid $green;
   grid-row: 1 / span 2;
   display: flex;
   flex-direction: column;
@@ -74,4 +56,22 @@
 
 .info {
   font-size: 12px;
+}
+
+@media only screen and (max-width: 1024px){
+  div.grid-container{
+    grid-template-columns: repeat(1, max-content);
+  }
+  div.item:first-child{
+    grid-row: auto;
+    border-right: none;
+    height: 100%;
+  }
+  div.item{
+    border-bottom: 2px solid $green;
+    margin-top: 30px;
+  }
+  div.item:last-child{
+    border-bottom: none;
+  }
 }
