@@ -3,5 +3,8 @@ const jwt = require('jsonwebtoken'),
 
 exports.HEADER_NAME = config.common.session.header_name;
 exports.encode = user => {
-  return jwt.sign({ user }, 'my_secret_key');
+  return jwt.sign({ user }, 'secretkey');
+};
+exports.decode = token => {
+  return jwt.decode(token);
 };
