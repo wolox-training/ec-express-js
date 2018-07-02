@@ -4,4 +4,5 @@ const user = require('./controllers/users'),
 
 exports.init = app => {
   app.post('/users', validation.userValidation, user.create);
+  app.post('/users/sessions', [], user.login);
 };

@@ -1,6 +1,7 @@
 const User = require('../models').User,
   { validationResult } = require('express-validator/check'),
   errors = require('../errors'),
+  sessionManager = require('./../services/sessionManager'),
   helperPassword = require('../helpers/password');
 
 const createUser = function(user) {
@@ -53,4 +54,31 @@ exports.create = (req, res, next) => {
     .catch(err => {
       next(err);
     });
+};
+
+exports.login = (req, res, next) => {
+  const user = req.body
+    ? {
+        email: req.body.email,
+        password: req.body.password
+      }
+    : {};
+
+  User.findByEmail(user.email).then(u => {
+    if (u) {
+      helperPassword.compare(user.password, u.password).then(isValid => {
+        if (isValid) {
+          const auth = sessionManager.encode(u);
+
+          res.status(200);
+          res.set(sessionManager.HEADER_NAME, auth);
+          res.send(u);
+        } else {
+          next(errors.invalidUser());
+        }
+      });
+    } else {
+      next(errors.invalidUser());
+    }
+  });
 };

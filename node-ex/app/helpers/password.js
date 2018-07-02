@@ -7,3 +7,7 @@ exports.encrypt = password => {
     throw errors.defaultError();
   });
 };
+
+exports.compare = (receivedPassword, savedPassword) => {
+  return bcrypt.compare(receivedPassword, savedPassword);
+};
