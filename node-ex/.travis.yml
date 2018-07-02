@@ -1,7 +1,7 @@
 language: node_js
 
 node_js:
-  - "8.9.4"
+  - "9.11.1"
 
 sudo: true
 
@@ -18,5 +18,5 @@ services:
   - postgresql
 
 before_script:
-  - psql -c "CREATE DATABASE bookstest;" -U postgres
+  - psql -c "CREATE DATABASE nodetesting WITH OWNER ecarzoglio;" -U postgres
   - node_modules/.bin/sequelize db:migrate
