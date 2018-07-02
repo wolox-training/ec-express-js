@@ -28,5 +28,17 @@ module.exports = (sequelize, DataTypes) => {
   );
 
   User.associate = function(models) {};
+  User.createModel = user => {
+    return User.create(user).catch(err => {
+      throw errors.savingError();
+    });
+  };
+  User.findOneModel = email => {
+    return User.findOne({ where: { email } }).then(result => {
+      if (result !== null) {
+        throw errors.findingError();
+      }
+    });
+  };
   return User;
 };
