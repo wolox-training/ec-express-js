@@ -1,0 +1,1104 @@
+08:28:06 - info: Listening on port: 8080
+08:31:33 - error:  TypeError: req.check is not a function
+    at exports.validator (/home/ecarzoglio/Documents/node-ex/app/validations/validations.js:6:7)
+    at Layer.handle [as handle_request] (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:275:10)
+    at logger (/home/ecarzoglio/Documents/node-ex/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:317:13)
+    at /home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:275:10)
+    at /home/ecarzoglio/Documents/node-ex/node_modules/body-parser/lib/read.js:130:5
+    at invokeCallback (/home/ecarzoglio/Documents/node-ex/node_modules/raw-body/index.js:224:16)
+    at done (/home/ecarzoglio/Documents/node-ex/node_modules/raw-body/index.js:213:7)
+    at IncomingMessage.onEnd (/home/ecarzoglio/Documents/node-ex/node_modules/raw-body/index.js:273:7)
+    at IncomingMessage.emit (events.js:180:13)
+    at endReadableNT (_stream_readable.js:1106:12)
+    at process._tickCallback (internal/process/next_tick.js:178:19)
+08:31:59 - info: Listening on port: 8080
+08:32:04 - error:  TypeError: req.check is not a function
+    at exports.validator (/home/ecarzoglio/Documents/node-ex/app/validations/validations.js:7:7)
+    at Layer.handle [as handle_request] (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:275:10)
+    at logger (/home/ecarzoglio/Documents/node-ex/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:317:13)
+    at /home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:275:10)
+    at /home/ecarzoglio/Documents/node-ex/node_modules/body-parser/lib/read.js:130:5
+    at invokeCallback (/home/ecarzoglio/Documents/node-ex/node_modules/raw-body/index.js:224:16)
+    at done (/home/ecarzoglio/Documents/node-ex/node_modules/raw-body/index.js:213:7)
+    at IncomingMessage.onEnd (/home/ecarzoglio/Documents/node-ex/node_modules/raw-body/index.js:273:7)
+    at IncomingMessage.emit (events.js:180:13)
+    at endReadableNT (_stream_readable.js:1106:12)
+    at process._tickCallback (internal/process/next_tick.js:178:19)
+08:32:10 - info: Listening on port: 8080
+08:33:17 - info: Listening on port: 8080
+08:34:27 - info: Listening on port: 8080
+08:34:48 - info: Listening on port: 8080
+08:34:50 - error:  TypeError: req.check is not a function
+    at exports.validator (/home/ecarzoglio/Documents/node-ex/app/validations/validations.js:6:7)
+    at Layer.handle [as handle_request] (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:275:10)
+    at logger (/home/ecarzoglio/Documents/node-ex/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:317:13)
+    at /home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:275:10)
+    at /home/ecarzoglio/Documents/node-ex/node_modules/body-parser/lib/read.js:130:5
+    at invokeCallback (/home/ecarzoglio/Documents/node-ex/node_modules/raw-body/index.js:224:16)
+    at done (/home/ecarzoglio/Documents/node-ex/node_modules/raw-body/index.js:213:7)
+    at IncomingMessage.onEnd (/home/ecarzoglio/Documents/node-ex/node_modules/raw-body/index.js:273:7)
+    at IncomingMessage.emit (events.js:180:13)
+    at endReadableNT (_stream_readable.js:1106:12)
+    at process._tickCallback (internal/process/next_tick.js:178:19)
+08:36:33 - info: Listening on port: 8080
+08:37:20 - error:  TypeError: req.checkBody is not a function
+    at exports.validator (/home/ecarzoglio/Documents/node-ex/app/validations/validations.js:7:7)
+    at Layer.handle [as handle_request] (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:275:10)
+    at logger (/home/ecarzoglio/Documents/node-ex/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:317:13)
+    at /home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:275:10)
+    at /home/ecarzoglio/Documents/node-ex/node_modules/body-parser/lib/read.js:130:5
+    at invokeCallback (/home/ecarzoglio/Documents/node-ex/node_modules/raw-body/index.js:224:16)
+    at done (/home/ecarzoglio/Documents/node-ex/node_modules/raw-body/index.js:213:7)
+    at IncomingMessage.onEnd (/home/ecarzoglio/Documents/node-ex/node_modules/raw-body/index.js:273:7)
+    at IncomingMessage.emit (events.js:180:13)
+    at endReadableNT (_stream_readable.js:1106:12)
+    at process._tickCallback (internal/process/next_tick.js:178:19)
+08:38:29 - error:  TypeError: req.checkBody is not a function
+    at exports.validator (/home/ecarzoglio/Documents/node-ex/app/validations/validations.js:7:7)
+    at Layer.handle [as handle_request] (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:275:10)
+    at logger (/home/ecarzoglio/Documents/node-ex/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:317:13)
+    at /home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:275:10)
+    at /home/ecarzoglio/Documents/node-ex/node_modules/body-parser/lib/read.js:130:5
+    at invokeCallback (/home/ecarzoglio/Documents/node-ex/node_modules/raw-body/index.js:224:16)
+    at done (/home/ecarzoglio/Documents/node-ex/node_modules/raw-body/index.js:213:7)
+    at IncomingMessage.onEnd (/home/ecarzoglio/Documents/node-ex/node_modules/raw-body/index.js:273:7)
+    at IncomingMessage.emit (events.js:180:13)
+    at endReadableNT (_stream_readable.js:1106:12)
+    at process._tickCallback (internal/process/next_tick.js:178:19)
+08:38:47 - info: Listening on port: 8080
+08:39:52 - info: Listening on port: 8080
+08:39:54 - error:  TypeError: req.checkBody is not a function
+    at exports.validator (/home/ecarzoglio/Documents/node-ex/app/validations/validations.js:7:7)
+    at Layer.handle [as handle_request] (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:275:10)
+    at logger (/home/ecarzoglio/Documents/node-ex/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:317:13)
+    at /home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:275:10)
+    at /home/ecarzoglio/Documents/node-ex/node_modules/body-parser/lib/read.js:130:5
+    at invokeCallback (/home/ecarzoglio/Documents/node-ex/node_modules/raw-body/index.js:224:16)
+    at done (/home/ecarzoglio/Documents/node-ex/node_modules/raw-body/index.js:213:7)
+    at IncomingMessage.onEnd (/home/ecarzoglio/Documents/node-ex/node_modules/raw-body/index.js:273:7)
+    at IncomingMessage.emit (events.js:180:13)
+    at endReadableNT (_stream_readable.js:1106:12)
+    at process._tickCallback (internal/process/next_tick.js:178:19)
+08:40:08 - info: Listening on port: 8080
+08:41:22 - info: Listening on port: 8080
+08:41:32 - error:  TypeError: req.checkBody is not a function
+    at exports.validator (/home/ecarzoglio/Documents/node-ex/app/validations/validations.js:7:7)
+    at Layer.handle [as handle_request] (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:275:10)
+    at logger (/home/ecarzoglio/Documents/node-ex/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:317:13)
+    at /home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:275:10)
+    at /home/ecarzoglio/Documents/node-ex/node_modules/body-parser/lib/read.js:130:5
+    at invokeCallback (/home/ecarzoglio/Documents/node-ex/node_modules/raw-body/index.js:224:16)
+    at done (/home/ecarzoglio/Documents/node-ex/node_modules/raw-body/index.js:213:7)
+    at IncomingMessage.onEnd (/home/ecarzoglio/Documents/node-ex/node_modules/raw-body/index.js:273:7)
+    at IncomingMessage.emit (events.js:180:13)
+    at endReadableNT (_stream_readable.js:1106:12)
+    at process._tickCallback (internal/process/next_tick.js:178:19)
+08:41:49 - info: Listening on port: 8080
+08:42:05 - info: Listening on port: 8080
+08:42:51 - info: Listening on port: 8080
+08:42:57 - info: Listening on port: 8080
+08:43:01 - error:  TypeError: req.checkBody is not a function
+    at exports.validator (/home/ecarzoglio/Documents/node-ex/app/validations/validations.js:7:7)
+    at Layer.handle [as handle_request] (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:275:10)
+    at logger (/home/ecarzoglio/Documents/node-ex/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:317:13)
+    at /home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:275:10)
+    at /home/ecarzoglio/Documents/node-ex/node_modules/body-parser/lib/read.js:130:5
+    at invokeCallback (/home/ecarzoglio/Documents/node-ex/node_modules/raw-body/index.js:224:16)
+    at done (/home/ecarzoglio/Documents/node-ex/node_modules/raw-body/index.js:213:7)
+    at IncomingMessage.onEnd (/home/ecarzoglio/Documents/node-ex/node_modules/raw-body/index.js:273:7)
+    at IncomingMessage.emit (events.js:180:13)
+    at endReadableNT (_stream_readable.js:1106:12)
+    at process._tickCallback (internal/process/next_tick.js:178:19)
+08:43:20 - info: Listening on port: 8080
+08:43:25 - error:  TypeError: req.check is not a function
+    at exports.validator (/home/ecarzoglio/Documents/node-ex/app/validations/validations.js:7:7)
+    at Layer.handle [as handle_request] (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:275:10)
+    at logger (/home/ecarzoglio/Documents/node-ex/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:317:13)
+    at /home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:275:10)
+    at /home/ecarzoglio/Documents/node-ex/node_modules/body-parser/lib/read.js:130:5
+    at invokeCallback (/home/ecarzoglio/Documents/node-ex/node_modules/raw-body/index.js:224:16)
+    at done (/home/ecarzoglio/Documents/node-ex/node_modules/raw-body/index.js:213:7)
+    at IncomingMessage.onEnd (/home/ecarzoglio/Documents/node-ex/node_modules/raw-body/index.js:273:7)
+    at IncomingMessage.emit (events.js:180:13)
+    at endReadableNT (_stream_readable.js:1106:12)
+    at process._tickCallback (internal/process/next_tick.js:178:19)
+08:43:37 - info: Listening on port: 8080
+08:43:42 - info: Listening on port: 8080
+09:19:34 - info: Listening on port: 8080
+09:19:37 - error:  TypeError: req.check is not a function
+    at exports.validator (/home/ecarzoglio/Documents/node-ex/app/validations/validations.js:7:7)
+    at Layer.handle [as handle_request] (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:275:10)
+    at logger (/home/ecarzoglio/Documents/node-ex/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:317:13)
+    at /home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:275:10)
+    at /home/ecarzoglio/Documents/node-ex/node_modules/body-parser/lib/read.js:130:5
+    at invokeCallback (/home/ecarzoglio/Documents/node-ex/node_modules/raw-body/index.js:224:16)
+    at done (/home/ecarzoglio/Documents/node-ex/node_modules/raw-body/index.js:213:7)
+    at IncomingMessage.onEnd (/home/ecarzoglio/Documents/node-ex/node_modules/raw-body/index.js:273:7)
+    at IncomingMessage.emit (events.js:180:13)
+    at endReadableNT (_stream_readable.js:1106:12)
+    at process._tickCallback (internal/process/next_tick.js:178:19)
+09:19:48 - info: Listening on port: 8080
+09:20:38 - info: Listening on port: 8080
+09:20:55 - info: Listening on port: 8080
+09:21:00 - info: Listening on port: 8080
+09:22:25 - info: Listening on port: 8080
+09:23:01 - info: Listening on port: 8080
+09:23:17 - info: Listening on port: 8080
+09:23:36 - info: Listening on port: 8080
+09:24:03 - info: Listening on port: 8080
+09:25:57 - info: Listening on port: 8080
+09:26:18 - info: Listening on port: 8080
+09:27:17 - info: Listening on port: 8080
+09:29:48 - info: Listening on port: 8080
+09:30:11 - info: Listening on port: 8080
+09:30:22 - info: Listening on port: 8080
+09:30:28 - info: Listening on port: 8080
+09:30:47 - info: Listening on port: 8080
+09:30:51 - info: Listening on port: 8080
+09:31:04 - info: Listening on port: 8080
+09:35:13 - info: Listening on port: 8080
+09:35:28 - info: Listening on port: 8080
+09:36:58 - info: Listening on port: 8080
+09:39:18 - info: Listening on port: 8080
+09:40:19 - info: Listening on port: 8080
+09:40:27 - info: Listening on port: 8080
+09:40:58 - info: Listening on port: 8080
+09:41:04 - error:  TypeError: Cannot convert object to primitive value
+    at exports.validator (/home/ecarzoglio/Documents/node-ex/app/validations/validations.js:10:41)
+    at Layer.handle [as handle_request] (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:275:10)
+    at logger (/home/ecarzoglio/Documents/node-ex/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:317:13)
+    at /home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:275:10)
+    at /home/ecarzoglio/Documents/node-ex/node_modules/express-validator/lib/express_validator.js:250:5
+    at Layer.handle [as handle_request] (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:317:13)
+    at /home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:275:10)
+    at /home/ecarzoglio/Documents/node-ex/node_modules/body-parser/lib/read.js:130:5
+    at invokeCallback (/home/ecarzoglio/Documents/node-ex/node_modules/raw-body/index.js:224:16)
+09:42:10 - info: Listening on port: 8080
+09:42:15 - error:  TypeError: req.body.check is not a function
+    at exports.validator (/home/ecarzoglio/Documents/node-ex/app/validations/validations.js:7:12)
+    at Layer.handle [as handle_request] (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:275:10)
+    at logger (/home/ecarzoglio/Documents/node-ex/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:317:13)
+    at /home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:275:10)
+    at /home/ecarzoglio/Documents/node-ex/node_modules/express-validator/lib/express_validator.js:250:5
+    at Layer.handle [as handle_request] (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:317:13)
+    at /home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:275:10)
+    at /home/ecarzoglio/Documents/node-ex/node_modules/body-parser/lib/read.js:130:5
+    at invokeCallback (/home/ecarzoglio/Documents/node-ex/node_modules/raw-body/index.js:224:16)
+09:42:35 - info: Listening on port: 8080
+10:05:25 - info: Listening on port: 8080
+10:06:25 - info: Listening on port: 8080
+10:10:44 - info: Listening on port: 8080
+10:11:36 - info: Listening on port: 8080
+10:11:40 - info: Listening on port: 8080
+10:12:39 - info: Listening on port: 8080
+10:12:42 - error:  ReferenceError: validator is not defined
+    at exports.validator (/home/ecarzoglio/Documents/node-ex/app/validations/validations.js:8:3)
+    at Layer.handle [as handle_request] (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:275:10)
+    at logger (/home/ecarzoglio/Documents/node-ex/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:317:13)
+    at /home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:275:10)
+    at /home/ecarzoglio/Documents/node-ex/node_modules/express-validator/lib/express_validator.js:250:5
+    at Layer.handle [as handle_request] (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:317:13)
+    at /home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:275:10)
+    at /home/ecarzoglio/Documents/node-ex/node_modules/body-parser/lib/read.js:130:5
+    at invokeCallback (/home/ecarzoglio/Documents/node-ex/node_modules/raw-body/index.js:224:16)
+10:12:50 - info: Listening on port: 8080
+10:13:05 - error:  ReferenceError: use is not defined
+    at exports.validator (/home/ecarzoglio/Documents/node-ex/app/validations/validations.js:8:3)
+    at Layer.handle [as handle_request] (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:275:10)
+    at logger (/home/ecarzoglio/Documents/node-ex/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:317:13)
+    at /home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:275:10)
+    at /home/ecarzoglio/Documents/node-ex/node_modules/express-validator/lib/express_validator.js:250:5
+    at Layer.handle [as handle_request] (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:317:13)
+    at /home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:275:10)
+    at /home/ecarzoglio/Documents/node-ex/node_modules/body-parser/lib/read.js:130:5
+    at invokeCallback (/home/ecarzoglio/Documents/node-ex/node_modules/raw-body/index.js:224:16)
+10:13:38 - info: Listening on port: 8080
+10:16:14 - info: Listening on port: 8080
+10:16:33 - info: Listening on port: 8080
+10:16:39 - info: Listening on port: 8080
+10:20:58 - info: Listening on port: 8080
+10:21:30 - info: Listening on port: 8080
+10:21:39 - info: Listening on port: 8080
+10:36:49 - info: Listening on port: 8080
+10:37:09 - info: Listening on port: 8080
+10:37:31 - info: Listening on port: 8080
+11:00:01 - info: Listening on port: 8080
+11:00:06 - info: Listening on port: 8080
+11:00:35 - info: Listening on port: 8080
+11:13:29 - info: Listening on port: 8080
+11:15:15 - info: Listening on port: 8080
+11:15:21 - info: Listening on port: 8080
+11:15:48 - info: Listening on port: 8080
+11:16:38 - info: Listening on port: 8080
+11:16:47 - info: Listening on port: 8080
+11:17:11 - info: Listening on port: 8080
+11:17:14 - info: Listening on port: 8080
+11:17:27 - info: Listening on port: 8080
+11:17:39 - info: Listening on port: 8080
+11:17:42 - info: Listening on port: 8080
+11:18:52 - info: Listening on port: 8080
+11:20:15 - info: Listening on port: 8080
+11:20:50 - info: Listening on port: 8080
+11:21:46 - info: Listening on port: 8080
+11:22:36 - info: Listening on port: 8080
+11:23:42 - error:  ReferenceError: req is not defined
+    at Object.exports.init.app [as init] (/home/ecarzoglio/Documents/node-ex/app/routes.js:12:40)
+    at Promise.resolve.then.then (/home/ecarzoglio/Documents/node-ex/app.js:54:14)
+    at <anonymous>
+11:23:55 - error:  ReferenceError: email is not defined
+    at Object.exports.init.app [as init] (/home/ecarzoglio/Documents/node-ex/app/routes.js:12:40)
+    at Promise.resolve.then.then (/home/ecarzoglio/Documents/node-ex/app.js:54:14)
+    at <anonymous>
+11:24:16 - info: Listening on port: 8080
+11:25:03 - info: Listening on port: 8080
+11:36:23 - info: Listening on port: 8080
+11:37:31 - info: Listening on port: 8080
+11:38:13 - info: Listening on port: 8080
+11:41:06 - info: Listening on port: 8080
+11:44:45 - info: Listening on port: 8080
+11:47:10 - info: Listening on port: 8080
+11:49:40 - info: Listening on port: 8080
+11:56:00 - info: Listening on port: 8080
+11:57:16 - error:  ReferenceError: checkBody is not defined
+    at Object.exports.init.app [as init] (/home/ecarzoglio/Documents/node-ex/app/routes.js:10:7)
+    at Promise.resolve.then.then (/home/ecarzoglio/Documents/node-ex/app.js:54:14)
+    at <anonymous>
+11:57:33 - error:  TypeError: checkBody is not a function
+    at Object.exports.init.app [as init] (/home/ecarzoglio/Documents/node-ex/app/routes.js:12:6)
+    at Promise.resolve.then.then (/home/ecarzoglio/Documents/node-ex/app.js:54:14)
+    at <anonymous>
+11:57:48 - error:  ReferenceError: checkBody is not defined
+    at Object.exports.init.app [as init] (/home/ecarzoglio/Documents/node-ex/app/routes.js:10:7)
+    at Promise.resolve.then.then (/home/ecarzoglio/Documents/node-ex/app.js:54:14)
+    at <anonymous>
+11:57:50 - info: Listening on port: 8080
+11:58:05 - info: Listening on port: 8080
+11:58:51 - info: Listening on port: 8080
+12:03:16 - info: Listening on port: 8080
+12:06:02 - info: Listening on port: 8080
+12:24:43 - info: Listening on port: 8080
+12:24:52 - info: Listening on port: 8080
+12:25:03 - info: Listening on port: 8080
+12:29:42 - info: Listening on port: 8080
+12:29:56 - info: Listening on port: 8080
+12:31:12 - info: Listening on port: 8080
+12:33:19 - info: Listening on port: 8080
+12:33:31 - info: Listening on port: 8080
+12:35:05 - info: Listening on port: 8080
+12:35:42 - info: Listening on port: 8080
+12:36:13 - info: Listening on port: 8080
+12:36:23 - info: Listening on port: 8080
+12:38:27 - info: Listening on port: 8080
+12:38:54 - info: Listening on port: 8080
+12:43:08 - info: Listening on port: 8080
+12:43:24 - error:  
+{ message: undefined, internalCode: 'finding_error' }
+12:43:30 - error:  
+{ message: undefined, internalCode: 'finding_error' }
+12:43:35 - error:  
+{ message: undefined, internalCode: 'finding_error' }
+12:43:46 - info: Listening on port: 8080
+12:43:53 - info: Listening on port: 8080
+12:43:57 - error:  
+{ message: undefined, internalCode: 'finding_error' }
+12:52:55 - info: Listening on port: 8080
+12:53:04 - info: Listening on port: 8080
+12:53:15 - info: Listening on port: 8080
+12:53:24 - error:  
+{ message: undefined, internalCode: 'finding_error' }
+12:53:56 - info: Listening on port: 8080
+12:56:21 - info: Listening on port: 8080
+12:56:42 - info: Listening on port: 8080
+12:58:11 - info: Listening on port: 8080
+13:02:23 - info: Listening on port: 8080
+13:02:29 - error:  
+{ message: undefined, internalCode: 'finding_error' }
+13:02:31 - error:  
+{ message: undefined, internalCode: 'finding_error' }
+13:02:35 - error:  
+{ message: undefined, internalCode: 'finding_error' }
+13:02:37 - error:  
+{ message: undefined, internalCode: 'finding_error' }
+13:02:42 - error:  
+{ message: undefined, internalCode: 'finding_error' }
+13:02:46 - error:  
+{ message: undefined, internalCode: 'finding_error' }
+13:02:56 - info: Listening on port: 8080
+13:03:02 - error:  ReferenceError: email is not defined
+    at Function.User.findOneModel.mail [as findOneModel] (/home/ecarzoglio/Documents/node-ex/app/models/user.js:37:34)
+    at exports.create (/home/ecarzoglio/Documents/node-ex/app/controllers/users.js:26:8)
+    at Layer.handle [as handle_request] (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/route.js:137:13)
+    at runner.then.errors (/home/ecarzoglio/Documents/node-ex/node_modules/express-validator/check/check.js:18:7)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+13:03:06 - error:  ReferenceError: email is not defined
+    at Function.User.findOneModel.mail [as findOneModel] (/home/ecarzoglio/Documents/node-ex/app/models/user.js:37:34)
+    at exports.create (/home/ecarzoglio/Documents/node-ex/app/controllers/users.js:26:8)
+    at Layer.handle [as handle_request] (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/route.js:137:13)
+    at runner.then.errors (/home/ecarzoglio/Documents/node-ex/node_modules/express-validator/check/check.js:18:7)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+13:04:47 - info: Listening on port: 8080
+13:09:10 - info: Listening on port: 8080
+13:09:54 - info: Listening on port: 8080
+13:09:58 - error:  ReferenceError: include is not defined
+    at Function.User.findOneModel.email [as findOneModel] (/home/ecarzoglio/Documents/node-ex/app/models/user.js:37:25)
+    at exports.create (/home/ecarzoglio/Documents/node-ex/app/controllers/users.js:26:8)
+    at Layer.handle [as handle_request] (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/route.js:137:13)
+    at runner.then.errors (/home/ecarzoglio/Documents/node-ex/node_modules/express-validator/check/check.js:18:7)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+13:10:00 - error:  ReferenceError: include is not defined
+    at Function.User.findOneModel.email [as findOneModel] (/home/ecarzoglio/Documents/node-ex/app/models/user.js:37:25)
+    at exports.create (/home/ecarzoglio/Documents/node-ex/app/controllers/users.js:26:8)
+    at Layer.handle [as handle_request] (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/route.js:137:13)
+    at runner.then.errors (/home/ecarzoglio/Documents/node-ex/node_modules/express-validator/check/check.js:18:7)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+13:10:05 - error:  ReferenceError: include is not defined
+    at Function.User.findOneModel.email [as findOneModel] (/home/ecarzoglio/Documents/node-ex/app/models/user.js:37:25)
+    at exports.create (/home/ecarzoglio/Documents/node-ex/app/controllers/users.js:26:8)
+    at Layer.handle [as handle_request] (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/route.js:137:13)
+    at runner.then.errors (/home/ecarzoglio/Documents/node-ex/node_modules/express-validator/check/check.js:18:7)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+13:10:38 - info: Listening on port: 8080
+13:10:48 - error:  
+{ message: undefined, internalCode: 'finding_error' }
+13:10:50 - error:  
+{ message: undefined, internalCode: 'finding_error' }
+13:10:51 - error:  
+{ message: undefined, internalCode: 'finding_error' }
+13:10:54 - error:  
+{ message: undefined, internalCode: 'finding_error' }
+13:11:10 - info: Listening on port: 8080
+13:13:08 - info: Listening on port: 8080
+13:13:21 - info: Listening on port: 8080
+13:16:40 - info: Listening on port: 8080
+13:16:43 - error:  
+{ message: undefined, internalCode: 'finding_error' }
+13:16:46 - error:  
+{ message: undefined, internalCode: 'finding_error' }
+13:16:50 - error:  
+{ message: undefined, internalCode: 'finding_error' }
+13:16:51 - error:  
+{ message: undefined, internalCode: 'finding_error' }
+13:17:14 - error:  
+{ message: undefined, internalCode: 'finding_error' }
+13:17:30 - error:  
+{ message: undefined, internalCode: 'finding_error' }
+13:18:07 - info: Listening on port: 8080
+13:19:44 - info: Listening on port: 8080
+13:19:46 - info: Listening on port: 8080
+13:22:03 - info: Listening on port: 8080
+13:22:17 - error:  
+{ message: undefined, internalCode: 'finding_error' }
+13:22:17 - error:  
+{ message: undefined, internalCode: 'finding_error' }
+13:22:22 - error:  
+{ message: undefined, internalCode: 'finding_error' }
+13:27:29 - info: Listening on port: 8080
+13:27:43 - info: Listening on port: 8080
+13:32:36 - info: Listening on port: 8080
+13:32:41 - error:  
+{ message: undefined, internalCode: 'finding_error' }
+13:32:42 - error:  
+{ message: undefined, internalCode: 'finding_error' }
+13:32:46 - error:  TypeError: Cannot read property 'errors' of null
+    at User.findOne.then.err (/home/ecarzoglio/Documents/node-ex/app/models/user.js:38:37)
+    at tryCatcher (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/promise.js:693:18)
+    at Async._drainQueue (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+13:34:03 - info: Listening on port: 8080
+13:34:12 - error:  ReferenceError: callback is not defined
+    at User.findOne.then.err (/home/ecarzoglio/Documents/node-ex/app/models/user.js:38:7)
+    at tryCatcher (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/promise.js:693:18)
+    at Async._drainQueue (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+13:34:25 - info: Listening on port: 8080
+13:34:28 - error:  ReferenceError: err is not defined
+    at User.findOne.then.errors (/home/ecarzoglio/Documents/node-ex/app/models/user.js:38:33)
+    at tryCatcher (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/promise.js:693:18)
+    at Async._drainQueue (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+13:34:37 - info: Listening on port: 8080
+13:34:41 - error:  
+{ message: undefined, internalCode: 'finding_error' }
+13:34:45 - error:  TypeError: Cannot read property 'errors' of null
+    at User.findOne.then.err (/home/ecarzoglio/Documents/node-ex/app/models/user.js:38:37)
+    at tryCatcher (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/promise.js:693:18)
+    at Async._drainQueue (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+13:34:50 - error:  
+{ message: undefined, internalCode: 'finding_error' }
+13:34:51 - error:  
+{ message: undefined, internalCode: 'finding_error' }
+13:34:52 - error:  
+{ message: undefined, internalCode: 'finding_error' }
+13:34:56 - error:  TypeError: Cannot read property 'errors' of null
+    at User.findOne.then.err (/home/ecarzoglio/Documents/node-ex/app/models/user.js:38:37)
+    at tryCatcher (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/promise.js:693:18)
+    at Async._drainQueue (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+13:35:56 - error:  
+{ message: undefined, internalCode: 'finding_error' }
+13:36:37 - error:  
+{ message: undefined, internalCode: 'finding_error' }
+13:36:42 - error:  TypeError: Cannot read property 'errors' of null
+    at User.findOne.then.err (/home/ecarzoglio/Documents/node-ex/app/models/user.js:38:37)
+    at tryCatcher (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/promise.js:693:18)
+    at Async._drainQueue (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+13:37:20 - info: Listening on port: 8080
+13:37:28 - error:  ReferenceError: user is not defined
+    at Function.User.findOneModel.email [as findOneModel] (/home/ecarzoglio/Documents/node-ex/app/models/user.js:37:57)
+    at exports.create (/home/ecarzoglio/Documents/node-ex/app/controllers/users.js:26:8)
+    at Layer.handle [as handle_request] (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/route.js:137:13)
+    at runner.then.errors (/home/ecarzoglio/Documents/node-ex/node_modules/express-validator/check/check.js:18:7)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+13:37:39 - info: Listening on port: 8080
+13:37:41 - error:  
+{ message: undefined, internalCode: 'finding_error' }
+13:37:46 - error:  TypeError: Cannot read property 'errors' of null
+    at User.findOne.then.then.err (/home/ecarzoglio/Documents/node-ex/app/models/user.js:38:37)
+    at tryCatcher (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/promise.js:693:18)
+    at Async._drainQueue (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+13:37:54 - info: Listening on port: 8080
+14:11:38 - info: Listening on port: 8080
+14:11:49 - error:  ReferenceError: err is not defined
+    at User.findOne.then.result (/home/ecarzoglio/Documents/node-ex/app/models/user.js:39:35)
+    at tryCatcher (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/promise.js:693:18)
+    at Async._drainQueue (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+14:11:51 - error:  ReferenceError: err is not defined
+    at User.findOne.then.result (/home/ecarzoglio/Documents/node-ex/app/models/user.js:39:35)
+    at tryCatcher (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/promise.js:693:18)
+    at Async._drainQueue (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+14:12:03 - info: Listening on port: 8080
+14:12:07 - error:  
+{ message: undefined, internalCode: 'finding_error' }
+14:12:14 - error:  
+{ message: undefined, internalCode: 'finding_error' }
+14:12:24 - error:  
+{ message: undefined, internalCode: 'finding_error' }
+14:12:25 - error:  
+{ message: undefined, internalCode: 'finding_error' }
+14:12:26 - error:  
+{ message: undefined, internalCode: 'finding_error' }
+14:13:31 - info: Listening on port: 8080
+14:13:47 - info: Listening on port: 8080
+14:14:21 - info: Listening on port: 8080
+14:14:51 - error:  
+{ message: undefined, internalCode: 'finding_error' }
+14:18:33 - info: Listening on port: 8080
+14:18:36 - error:  
+{ message: undefined, internalCode: 'the email already exists' }
+14:19:11 - info: Listening on port: 8080
+14:21:02 - info: Listening on port: 8080
+14:21:41 - info: Listening on port: 8080
+14:21:49 - info: Listening on port: 8080
+14:22:15 - error:  
+{ message: undefined, internalCode: 'the email already exists' }
+14:22:27 - info: Listening on port: 8080
+14:24:36 - info: Listening on port: 8080
+14:24:53 - error:  TypeError: validationResult is not a function
+    at exports.create (/home/ecarzoglio/Documents/node-ex/app/controllers/users.js:21:17)
+    at Layer.handle [as handle_request] (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/route.js:137:13)
+    at runner.then.errors (/home/ecarzoglio/Documents/node-ex/node_modules/express-validator/check/check.js:18:7)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+14:25:03 - info: Listening on port: 8080
+14:25:17 - error:  
+{ message: undefined, internalCode: 'the email already exists' }
+14:28:53 - info: Listening on port: 8080
+14:41:02 - info: Listening on port: 8080
+14:41:08 - error:  
+{ message: undefined, internalCode: 'the email already exists' }
+14:41:15 - error:  
+{ message: undefined, internalCode: 'the email already exists' }
+14:42:15 - info: Listening on port: 8080
+14:42:19 - error:  
+{ message: undefined, internalCode: 'the email already exists' }
+14:42:21 - error:  
+{ message: undefined, internalCode: 'the email already exists' }
+14:43:13 - info: Listening on port: 8080
+14:43:19 - error:  
+{ message: undefined, internalCode: 'the email already exists' }
+14:43:21 - error:  ReferenceError: created is not defined
+    at User.createModel.then.s (/home/ecarzoglio/Documents/node-ex/app/controllers/users.js:35:31)
+    at tryCatcher (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/promise.js:693:18)
+    at Async._drainQueue (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+14:43:33 - info: Listening on port: 8080
+14:43:41 - info: Listening on port: 8080
+14:43:43 - error:  
+{ message: undefined, internalCode: 'the email already exists' }
+14:43:45 - error:  ReferenceError: created is not defined
+    at User.createModel.then.s (/home/ecarzoglio/Documents/node-ex/app/controllers/users.js:35:32)
+    at tryCatcher (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/promise.js:693:18)
+    at Async._drainQueue (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+14:43:58 - info: Listening on port: 8080
+14:44:02 - error:  
+{ message: undefined, internalCode: 'the email already exists' }
+14:44:04 - error:  Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at validateHeader (_http_outgoing.js:503:11)
+    at ServerResponse.setHeader (_http_outgoing.js:510:3)
+    at ServerResponse.header (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.json (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/response.js:264:10)
+    at User.createModel.then.s (/home/ecarzoglio/Documents/node-ex/app/controllers/users.js:35:19)
+    at tryCatcher (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/promise.js:693:18)
+    at Async._drainQueue (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+14:44:35 - info: Listening on port: 8080
+14:44:39 - error:  Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at validateHeader (_http_outgoing.js:503:11)
+    at ServerResponse.setHeader (_http_outgoing.js:510:3)
+    at ServerResponse.header (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.contentType (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/response.js:595:15)
+    at ServerResponse.send (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/response.js:145:14)
+    at User.createModel.then.s (/home/ecarzoglio/Documents/node-ex/app/controllers/users.js:35:19)
+    at tryCatcher (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/promise.js:693:18)
+    at Async._drainQueue (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+14:45:50 - info: Listening on port: 8080
+14:45:53 - error:  
+{ message: undefined, internalCode: 'the email already exists' }
+14:45:55 - error:  Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at validateHeader (_http_outgoing.js:503:11)
+    at ServerResponse.setHeader (_http_outgoing.js:510:3)
+    at ServerResponse.header (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.contentType (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/response.js:595:15)
+    at ServerResponse.send (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/response.js:145:14)
+    at User.createModel.then.s (/home/ecarzoglio/Documents/node-ex/app/controllers/users.js:35:19)
+    at tryCatcher (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/promise.js:693:18)
+    at Async._drainQueue (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+14:46:35 - error:  
+{ message: undefined, internalCode: 'the email already exists' }
+14:46:40 - error:  Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at validateHeader (_http_outgoing.js:503:11)
+    at ServerResponse.setHeader (_http_outgoing.js:510:3)
+    at ServerResponse.header (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.contentType (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/response.js:595:15)
+    at ServerResponse.send (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/response.js:145:14)
+    at User.createModel.then.s (/home/ecarzoglio/Documents/node-ex/app/controllers/users.js:35:19)
+    at tryCatcher (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/promise.js:693:18)
+    at Async._drainQueue (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+14:46:47 - info: Listening on port: 8080
+14:48:48 - info: Listening on port: 8080
+14:48:53 - error:  Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at validateHeader (_http_outgoing.js:503:11)
+    at ServerResponse.setHeader (_http_outgoing.js:510:3)
+    at ServerResponse.header (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.json (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/response.js:264:10)
+    at ServerResponse.send (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/response.js:158:21)
+    at User.createModel.then.s (/home/ecarzoglio/Documents/node-ex/app/controllers/users.js:35:19)
+    at tryCatcher (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/promise.js:693:18)
+    at Async._drainQueue (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+14:49:34 - info: Listening on port: 8080
+14:49:36 - error:  Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at validateHeader (_http_outgoing.js:503:11)
+    at ServerResponse.setHeader (_http_outgoing.js:510:3)
+    at ServerResponse.header (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.json (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/response.js:264:10)
+    at ServerResponse.send (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/response.js:158:21)
+    at User.createModel.then.s (/home/ecarzoglio/Documents/node-ex/app/controllers/users.js:36:19)
+    at tryCatcher (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/promise.js:693:18)
+    at Async._drainQueue (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+14:49:53 - info: Listening on port: 8080
+14:50:10 - error:  Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at validateHeader (_http_outgoing.js:503:11)
+    at ServerResponse.setHeader (_http_outgoing.js:510:3)
+    at ServerResponse.header (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.json (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/response.js:264:10)
+    at ServerResponse.send (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/response.js:158:21)
+    at User.createModel.then.s (/home/ecarzoglio/Documents/node-ex/app/controllers/users.js:37:19)
+    at tryCatcher (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/promise.js:693:18)
+    at Async._drainQueue (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+14:50:31 - error:  Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at validateHeader (_http_outgoing.js:503:11)
+    at ServerResponse.setHeader (_http_outgoing.js:510:3)
+    at ServerResponse.header (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.json (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/response.js:264:10)
+    at ServerResponse.send (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/response.js:158:21)
+    at User.createModel.then.s (/home/ecarzoglio/Documents/node-ex/app/controllers/users.js:37:19)
+    at tryCatcher (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/promise.js:693:18)
+    at Async._drainQueue (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/ecarzoglio/Documents/node-ex/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+14:50:39 - info: Listening on port: 8080
+14:53:28 - info: Listening on port: 8080
+14:53:33 - info: Listening on port: 8080
+15:10:23 - info: Listening on port: 8080
+17:20:41 - info: Listening on port: 8080
+17:29:51 - info: Listening on port: 8080
+17:30:16 - error:  
+{ message: undefined, internalCode: 'the email already exists' }
+17:31:05 - error:  TypeError: User.getByemail is not a function
+    at exports.login (/home/ecarzoglio/Documents/node-ex/app/controllers/users.js:61:8)
+    at Layer.handle [as handle_request] (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:275:10)
+    at logger (/home/ecarzoglio/Documents/node-ex/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:317:13)
+    at /home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:275:10)
+    at /home/ecarzoglio/Documents/node-ex/node_modules/express-validator/lib/express_validator.js:250:5
+    at Layer.handle [as handle_request] (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:317:13)
+    at /home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:275:10)
+    at /home/ecarzoglio/Documents/node-ex/node_modules/body-parser/lib/read.js:130:5
+    at invokeCallback (/home/ecarzoglio/Documents/node-ex/node_modules/raw-body/index.js:224:16)
+17:32:47 - info: Listening on port: 8080
+17:32:52 - info: Listening on port: 8080
+17:32:58 - error:  TypeError: User.getOne is not a function
+    at Function.User.getByEmail.email [as getByEmail] (/home/ecarzoglio/Documents/node-ex/app/models/user.js:44:17)
+    at exports.login (/home/ecarzoglio/Documents/node-ex/app/controllers/users.js:61:8)
+    at Layer.handle [as handle_request] (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:275:10)
+    at logger (/home/ecarzoglio/Documents/node-ex/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:317:13)
+    at /home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:275:10)
+    at /home/ecarzoglio/Documents/node-ex/node_modules/express-validator/lib/express_validator.js:250:5
+    at Layer.handle [as handle_request] (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:317:13)
+    at /home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:275:10)
+    at /home/ecarzoglio/Documents/node-ex/node_modules/body-parser/lib/read.js:130:5
+17:33:56 - info: Listening on port: 8080
+17:36:21 - info: Listening on port: 8080
+17:36:22 - info: Listening on port: 8080
+17:37:19 - info: Listening on port: 8080
+17:37:23 - error:  RangeError: Maximum call stack size exceeded
+    at Function.User.findOne.email [as findOne] (/home/ecarzoglio/Documents/node-ex/app/models/user.js:37:17)
+    at Function.User.findOne.email [as findOne] (/home/ecarzoglio/Documents/node-ex/app/models/user.js:37:17)
+    at Function.User.findOne.email [as findOne] (/home/ecarzoglio/Documents/node-ex/app/models/user.js:37:17)
+    at Function.User.findOne.email [as findOne] (/home/ecarzoglio/Documents/node-ex/app/models/user.js:37:17)
+    at Function.User.findOne.email [as findOne] (/home/ecarzoglio/Documents/node-ex/app/models/user.js:37:17)
+    at Function.User.findOne.email [as findOne] (/home/ecarzoglio/Documents/node-ex/app/models/user.js:37:17)
+    at Function.User.findOne.email [as findOne] (/home/ecarzoglio/Documents/node-ex/app/models/user.js:37:17)
+    at Function.User.findOne.email [as findOne] (/home/ecarzoglio/Documents/node-ex/app/models/user.js:37:17)
+    at Function.User.findOne.email [as findOne] (/home/ecarzoglio/Documents/node-ex/app/models/user.js:37:17)
+    at Function.User.findOne.email [as findOne] (/home/ecarzoglio/Documents/node-ex/app/models/user.js:37:17)
+    at Function.User.findOne.email [as findOne] (/home/ecarzoglio/Documents/node-ex/app/models/user.js:37:17)
+    at Function.User.findOne.email [as findOne] (/home/ecarzoglio/Documents/node-ex/app/models/user.js:37:17)
+    at Function.User.findOne.email [as findOne] (/home/ecarzoglio/Documents/node-ex/app/models/user.js:37:17)
+    at Function.User.findOne.email [as findOne] (/home/ecarzoglio/Documents/node-ex/app/models/user.js:37:17)
+    at Function.User.findOne.email [as findOne] (/home/ecarzoglio/Documents/node-ex/app/models/user.js:37:17)
+    at Function.User.findOne.email [as findOne] (/home/ecarzoglio/Documents/node-ex/app/models/user.js:37:17)
+    at Function.User.findOne.email [as findOne] (/home/ecarzoglio/Documents/node-ex/app/models/user.js:37:17)
+    at Function.User.findOne.email [as findOne] (/home/ecarzoglio/Documents/node-ex/app/models/user.js:37:17)
+    at Function.User.findOne.email [as findOne] (/home/ecarzoglio/Documents/node-ex/app/models/user.js:37:17)
+    at Function.User.findOne.email [as findOne] (/home/ecarzoglio/Documents/node-ex/app/models/user.js:37:17)
+    at Function.User.findOne.email [as findOne] (/home/ecarzoglio/Documents/node-ex/app/models/user.js:37:17)
+    at Function.User.findOne.email [as findOne] (/home/ecarzoglio/Documents/node-ex/app/models/user.js:37:17)
+17:37:49 - error:  RangeError: Maximum call stack size exceeded
+    at Function.User.findOne.email [as findOne] (/home/ecarzoglio/Documents/node-ex/app/models/user.js:37:17)
+    at Function.User.findOne.email [as findOne] (/home/ecarzoglio/Documents/node-ex/app/models/user.js:37:17)
+    at Function.User.findOne.email [as findOne] (/home/ecarzoglio/Documents/node-ex/app/models/user.js:37:17)
+    at Function.User.findOne.email [as findOne] (/home/ecarzoglio/Documents/node-ex/app/models/user.js:37:17)
+    at Function.User.findOne.email [as findOne] (/home/ecarzoglio/Documents/node-ex/app/models/user.js:37:17)
+    at Function.User.findOne.email [as findOne] (/home/ecarzoglio/Documents/node-ex/app/models/user.js:37:17)
+    at Function.User.findOne.email [as findOne] (/home/ecarzoglio/Documents/node-ex/app/models/user.js:37:17)
+    at Function.User.findOne.email [as findOne] (/home/ecarzoglio/Documents/node-ex/app/models/user.js:37:17)
+    at Function.User.findOne.email [as findOne] (/home/ecarzoglio/Documents/node-ex/app/models/user.js:37:17)
+    at Function.User.findOne.email [as findOne] (/home/ecarzoglio/Documents/node-ex/app/models/user.js:37:17)
+    at Function.User.findOne.email [as findOne] (/home/ecarzoglio/Documents/node-ex/app/models/user.js:37:17)
+    at Function.User.findOne.email [as findOne] (/home/ecarzoglio/Documents/node-ex/app/models/user.js:37:17)
+    at Function.User.findOne.email [as findOne] (/home/ecarzoglio/Documents/node-ex/app/models/user.js:37:17)
+    at Function.User.findOne.email [as findOne] (/home/ecarzoglio/Documents/node-ex/app/models/user.js:37:17)
+    at Function.User.findOne.email [as findOne] (/home/ecarzoglio/Documents/node-ex/app/models/user.js:37:17)
+    at Function.User.findOne.email [as findOne] (/home/ecarzoglio/Documents/node-ex/app/models/user.js:37:17)
+    at Function.User.findOne.email [as findOne] (/home/ecarzoglio/Documents/node-ex/app/models/user.js:37:17)
+    at Function.User.findOne.email [as findOne] (/home/ecarzoglio/Documents/node-ex/app/models/user.js:37:17)
+    at Function.User.findOne.email [as findOne] (/home/ecarzoglio/Documents/node-ex/app/models/user.js:37:17)
+    at Function.User.findOne.email [as findOne] (/home/ecarzoglio/Documents/node-ex/app/models/user.js:37:17)
+    at Function.User.findOne.email [as findOne] (/home/ecarzoglio/Documents/node-ex/app/models/user.js:37:17)
+    at Function.User.findOne.email [as findOne] (/home/ecarzoglio/Documents/node-ex/app/models/user.js:37:17)
+17:38:01 - info: Listening on port: 8080
+17:38:57 - info: Listening on port: 8080
+17:40:00 - info: Listening on port: 8080
+17:40:10 - info: Listening on port: 8080
+17:42:05 - info: Listening on port: 8080
+17:43:34 - info: Listening on port: 8080
+17:43:45 - info: Listening on port: 8080
+17:43:52 - error:  TypeError: User.getOne is not a function
+    at Function.User.findByEmail.email [as findByEmail] (/home/ecarzoglio/Documents/node-ex/app/models/user.js:44:17)
+    at exports.login (/home/ecarzoglio/Documents/node-ex/app/controllers/users.js:61:8)
+    at Layer.handle [as handle_request] (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:275:10)
+    at logger (/home/ecarzoglio/Documents/node-ex/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:317:13)
+    at /home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:275:10)
+    at /home/ecarzoglio/Documents/node-ex/node_modules/express-validator/lib/express_validator.js:250:5
+    at Layer.handle [as handle_request] (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:317:13)
+    at /home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ecarzoglio/Documents/node-ex/node_modules/express/lib/router/index.js:275:10)
+    at /home/ecarzoglio/Documents/node-ex/node_modules/body-parser/lib/read.js:130:5
+17:45:32 - info: Listening on port: 8080
+17:48:34 - info: Listening on port: 8080
+17:49:36 - info: Listening on port: 8080
+17:50:00 - info: Listening on port: 8080
+17:50:17 - info: Listening on port: 8080
+17:51:12 - info: Listening on port: 8080
+17:52:08 - info: Listening on port: 8080
+17:52:24 - info: Listening on port: 8080
+17:57:58 - info: Listening on port: 8080
+17:58:07 - error:  
+{ message: 'Invalid username or password',
+  internalCode: 'invalid_user' }
+17:58:18 - info: Listening on port: 8080
+17:58:23 - error:  
+{ message: 'Invalid username or password',
+  internalCode: 'invalid_user' }
+17:58:56 - info: Listening on port: 8080
+17:59:02 - error:  
+{ message: 'Invalid username or password',
+  internalCode: 'invalid_user' }
+17:59:48 - info: Listening on port: 8080
+17:59:54 - info: Listening on port: 8080

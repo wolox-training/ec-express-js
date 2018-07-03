@@ -1,0 +1,883 @@
+10:44:12 - info: Listening on port: 8080
+10:49:31 - info: Listening on port: 8080
+10:49:53 - info: Listening on port: 8080
+10:52:16 - info: Listening on port: 8080
+10:52:48 - info: Listening on port: 8080
+10:52:53 - info: Listening on port: 8080
+10:53:23 - info: Listening on port: 8080
+10:53:33 - info: Listening on port: 8080
+10:56:00 - info: Listening on port: 8080
+10:57:12 - info: Listening on port: 8080
+10:57:17 - info: Listening on port: 8080
+10:58:38 - info: Listening on port: 8080
+11:07:41 - info: Listening on port: 8080
+11:08:13 - info: Listening on port: 8080
+11:08:35 - info: Listening on port: 8080
+11:08:54 - info: Listening on port: 8080
+11:09:10 - info: Listening on port: 8080
+11:09:23 - info: Listening on port: 8080
+11:17:04 - info: Listening on port: 8080
+11:25:11 - info: Listening on port: 8080
+11:25:21 - info: Listening on port: 8080
+11:26:33 - info: Listening on port: 8080
+11:26:41 - info: Listening on port: 8080
+11:27:10 - info: Listening on port: 8080
+11:27:43 - info: Listening on port: 8080
+11:28:16 - info: Listening on port: 8080
+11:28:41 - info: Listening on port: 8080
+11:29:37 - info: Listening on port: 8080
+11:30:10 - info: Listening on port: 8080
+11:30:29 - info: Listening on port: 8080
+11:31:03 - info: Listening on port: 8080
+11:31:16 - info: Listening on port: 8080
+11:34:38 - info: Listening on port: 8080
+11:34:39 - error:  
+{ message: 
+   [ { location: 'body',
+       param: 'password',
+       value: 'INVALID',
+       msg: 'the_password_must_have_at_least_8_characters' } ],
+  internalCode: 'saving_error' }
+11:34:39 - error:  
+{ message: 
+   [ { location: 'body',
+       param: 'email',
+       value: 'INVALID',
+       msg: 'email_is_not_valid' },
+     { location: 'body',
+       param: 'email',
+       value: 'INVALID',
+       msg: 'the_email_must_belong_to_the_wolox_domain' } ],
+  internalCode: 'saving_error' }
+11:34:39 - error:  
+{ message: 
+   [ { location: 'body',
+       param: 'firstName',
+       value: '',
+       msg: 'Invalid value' },
+     { location: 'body',
+       param: 'lastName',
+       value: '',
+       msg: 'Invalid value' },
+     { location: 'body',
+       param: 'email',
+       value: '',
+       msg: 'email_is_not_valid' },
+     { location: 'body',
+       param: 'email',
+       value: '',
+       msg: 'the_email_must_belong_to_the_wolox_domain' },
+     { location: 'body',
+       param: 'password',
+       value: '',
+       msg: 'the_password_must_have_at_least_8_characters' },
+     { location: 'body',
+       param: 'password',
+       value: '',
+       msg: 'the_password_must_be_alphanumeric' } ],
+  internalCode: 'saving_error' }
+11:34:39 - error:  
+{ message: 'email_already_exists',
+  internalCode: 'saving_error' }
+11:34:40 - error:  
+{ message: 'invalid_username_or_password',
+  internalCode: 'invalid_user' }
+11:34:40 - error:  
+{ message: 'invalid_username_or_password',
+  internalCode: 'invalid_user' }
+11:34:40 - error:  
+{ message: 'header_not_being_sent_or_incorrect',
+  internalCode: 'header_not_being_sent_or_incorrect' }
+11:34:41 - error:  
+{ message: 'header_not_being_sent_or_incorrect',
+  internalCode: 'header_not_being_sent_or_incorrect' }
+11:34:51 - info: Listening on port: 8080
+11:34:51 - error:  
+{ message: 
+   [ { location: 'body',
+       param: 'password',
+       value: 'INVALID',
+       msg: 'the_password_must_have_at_least_8_characters' } ],
+  internalCode: 'saving_error' }
+11:34:52 - error:  
+{ message: 
+   [ { location: 'body',
+       param: 'email',
+       value: 'INVALID',
+       msg: 'email_is_not_valid' },
+     { location: 'body',
+       param: 'email',
+       value: 'INVALID',
+       msg: 'the_email_must_belong_to_the_wolox_domain' } ],
+  internalCode: 'saving_error' }
+11:34:52 - error:  
+{ message: 
+   [ { location: 'body',
+       param: 'firstName',
+       value: '',
+       msg: 'Invalid value' },
+     { location: 'body',
+       param: 'lastName',
+       value: '',
+       msg: 'Invalid value' },
+     { location: 'body',
+       param: 'email',
+       value: '',
+       msg: 'email_is_not_valid' },
+     { location: 'body',
+       param: 'email',
+       value: '',
+       msg: 'the_email_must_belong_to_the_wolox_domain' },
+     { location: 'body',
+       param: 'password',
+       value: '',
+       msg: 'the_password_must_have_at_least_8_characters' },
+     { location: 'body',
+       param: 'password',
+       value: '',
+       msg: 'the_password_must_be_alphanumeric' } ],
+  internalCode: 'saving_error' }
+11:34:52 - error:  
+{ message: 'email_already_exists',
+  internalCode: 'saving_error' }
+11:34:53 - error:  
+{ message: 'invalid_username_or_password',
+  internalCode: 'invalid_user' }
+11:34:53 - error:  
+{ message: 'invalid_username_or_password',
+  internalCode: 'invalid_user' }
+11:34:53 - error:  
+{ message: 'header_not_being_sent_or_incorrect',
+  internalCode: 'header_not_being_sent_or_incorrect' }
+11:34:54 - error:  
+{ message: 'header_not_being_sent_or_incorrect',
+  internalCode: 'header_not_being_sent_or_incorrect' }
+11:35:21 - info: Listening on port: 8080
+11:35:22 - error:  
+{ message: 
+   [ { location: 'body',
+       param: 'password',
+       value: 'INVALID',
+       msg: 'the_password_must_have_at_least_8_characters' } ],
+  internalCode: 'saving_error' }
+11:35:22 - error:  
+{ message: 
+   [ { location: 'body',
+       param: 'email',
+       value: 'INVALID',
+       msg: 'email_is_not_valid' },
+     { location: 'body',
+       param: 'email',
+       value: 'INVALID',
+       msg: 'the_email_must_belong_to_the_wolox_domain' } ],
+  internalCode: 'saving_error' }
+11:35:22 - error:  
+{ message: 
+   [ { location: 'body',
+       param: 'firstName',
+       value: '',
+       msg: 'Invalid value' },
+     { location: 'body',
+       param: 'lastName',
+       value: '',
+       msg: 'Invalid value' },
+     { location: 'body',
+       param: 'email',
+       value: '',
+       msg: 'email_is_not_valid' },
+     { location: 'body',
+       param: 'email',
+       value: '',
+       msg: 'the_email_must_belong_to_the_wolox_domain' },
+     { location: 'body',
+       param: 'password',
+       value: '',
+       msg: 'the_password_must_have_at_least_8_characters' },
+     { location: 'body',
+       param: 'password',
+       value: '',
+       msg: 'the_password_must_be_alphanumeric' } ],
+  internalCode: 'saving_error' }
+11:35:29 - error:  
+{ message: 'invalid_username_or_password',
+  internalCode: 'invalid_user' }
+11:35:29 - error:  
+{ message: 'invalid_username_or_password',
+  internalCode: 'invalid_user' }
+11:35:29 - error:  
+{ message: 'header_not_being_sent_or_incorrect',
+  internalCode: 'header_not_being_sent_or_incorrect' }
+11:35:30 - error:  
+{ message: 'header_not_being_sent_or_incorrect',
+  internalCode: 'header_not_being_sent_or_incorrect' }
+11:35:49 - info: Listening on port: 8080
+11:35:49 - error:  
+{ message: 
+   [ { location: 'body',
+       param: 'password',
+       value: 'INVALID',
+       msg: 'the_password_must_have_at_least_8_characters' } ],
+  internalCode: 'saving_error' }
+11:35:49 - error:  
+{ message: 
+   [ { location: 'body',
+       param: 'email',
+       value: 'INVALID',
+       msg: 'email_is_not_valid' },
+     { location: 'body',
+       param: 'email',
+       value: 'INVALID',
+       msg: 'the_email_must_belong_to_the_wolox_domain' } ],
+  internalCode: 'saving_error' }
+11:35:49 - error:  
+{ message: 
+   [ { location: 'body',
+       param: 'firstName',
+       value: '',
+       msg: 'Invalid value' },
+     { location: 'body',
+       param: 'lastName',
+       value: '',
+       msg: 'Invalid value' },
+     { location: 'body',
+       param: 'email',
+       value: '',
+       msg: 'email_is_not_valid' },
+     { location: 'body',
+       param: 'email',
+       value: '',
+       msg: 'the_email_must_belong_to_the_wolox_domain' },
+     { location: 'body',
+       param: 'password',
+       value: '',
+       msg: 'the_password_must_have_at_least_8_characters' },
+     { location: 'body',
+       param: 'password',
+       value: '',
+       msg: 'the_password_must_be_alphanumeric' } ],
+  internalCode: 'saving_error' }
+11:35:49 - error:  
+{ message: 'email_already_exists',
+  internalCode: 'saving_error' }
+11:35:50 - error:  
+{ message: 'invalid_username_or_password',
+  internalCode: 'invalid_user' }
+11:35:50 - error:  
+{ message: 'invalid_username_or_password',
+  internalCode: 'invalid_user' }
+11:35:51 - error:  
+{ message: 'header_not_being_sent_or_incorrect',
+  internalCode: 'header_not_being_sent_or_incorrect' }
+11:35:51 - error:  
+{ message: 'header_not_being_sent_or_incorrect',
+  internalCode: 'header_not_being_sent_or_incorrect' }
+11:37:16 - info: Listening on port: 8080
+11:37:17 - error:  
+{ message: 
+   [ { location: 'body',
+       param: 'password',
+       value: 'INVALID',
+       msg: 'the_password_must_have_at_least_8_characters' } ],
+  internalCode: 'saving_error' }
+11:37:17 - error:  
+{ message: 
+   [ { location: 'body',
+       param: 'email',
+       value: 'INVALID',
+       msg: 'email_is_not_valid' },
+     { location: 'body',
+       param: 'email',
+       value: 'INVALID',
+       msg: 'the_email_must_belong_to_the_wolox_domain' } ],
+  internalCode: 'saving_error' }
+11:37:17 - error:  
+{ message: 
+   [ { location: 'body',
+       param: 'firstName',
+       value: '',
+       msg: 'Invalid value' },
+     { location: 'body',
+       param: 'lastName',
+       value: '',
+       msg: 'Invalid value' },
+     { location: 'body',
+       param: 'email',
+       value: '',
+       msg: 'email_is_not_valid' },
+     { location: 'body',
+       param: 'email',
+       value: '',
+       msg: 'the_email_must_belong_to_the_wolox_domain' },
+     { location: 'body',
+       param: 'password',
+       value: '',
+       msg: 'the_password_must_have_at_least_8_characters' },
+     { location: 'body',
+       param: 'password',
+       value: '',
+       msg: 'the_password_must_be_alphanumeric' } ],
+  internalCode: 'saving_error' }
+11:37:17 - error:  
+{ message: 'email_already_exists',
+  internalCode: 'saving_error' }
+11:37:18 - error:  
+{ message: 'invalid_username_or_password',
+  internalCode: 'invalid_user' }
+11:37:18 - error:  
+{ message: 'invalid_username_or_password',
+  internalCode: 'invalid_user' }
+11:37:18 - error:  
+{ message: 'header_not_being_sent_or_incorrect',
+  internalCode: 'header_not_being_sent_or_incorrect' }
+11:37:19 - error:  
+{ message: 'header_not_being_sent_or_incorrect',
+  internalCode: 'header_not_being_sent_or_incorrect' }
+11:45:38 - info: Listening on port: 8080
+11:45:39 - error:  
+{ message: 
+   [ { location: 'body',
+       param: 'password',
+       value: 'INVALID',
+       msg: 'the_password_must_have_at_least_8_characters' } ],
+  internalCode: 'saving_error' }
+11:45:39 - error:  
+{ message: 
+   [ { location: 'body',
+       param: 'email',
+       value: 'INVALID',
+       msg: 'email_is_not_valid' },
+     { location: 'body',
+       param: 'email',
+       value: 'INVALID',
+       msg: 'the_email_must_belong_to_the_wolox_domain' } ],
+  internalCode: 'saving_error' }
+11:45:39 - error:  
+{ message: 
+   [ { location: 'body',
+       param: 'firstName',
+       value: '',
+       msg: 'Invalid value' },
+     { location: 'body',
+       param: 'lastName',
+       value: '',
+       msg: 'Invalid value' },
+     { location: 'body',
+       param: 'email',
+       value: '',
+       msg: 'email_is_not_valid' },
+     { location: 'body',
+       param: 'email',
+       value: '',
+       msg: 'the_email_must_belong_to_the_wolox_domain' },
+     { location: 'body',
+       param: 'password',
+       value: '',
+       msg: 'the_password_must_have_at_least_8_characters' },
+     { location: 'body',
+       param: 'password',
+       value: '',
+       msg: 'the_password_must_be_alphanumeric' } ],
+  internalCode: 'saving_error' }
+11:45:39 - error:  
+{ message: 'email_already_exists',
+  internalCode: 'saving_error' }
+11:45:40 - error:  
+{ message: 'invalid_username_or_password',
+  internalCode: 'invalid_user' }
+11:45:40 - error:  
+{ message: 'invalid_username_or_password',
+  internalCode: 'invalid_user' }
+11:45:40 - error:  
+{ message: 'header_not_being_sent_or_incorrect',
+  internalCode: 'header_not_being_sent_or_incorrect' }
+11:45:41 - error:  
+{ message: 'header_not_being_sent_or_incorrect',
+  internalCode: 'header_not_being_sent_or_incorrect' }
+11:48:21 - info: Listening on port: 8080
+11:48:22 - error:  
+{ message: 'header_not_being_sent_or_incorrect',
+  internalCode: 'header_not_being_sent_or_incorrect' }
+11:48:22 - error:  
+{ message: 
+   [ { location: 'body',
+       param: 'password',
+       value: 'INVALID',
+       msg: 'the_password_must_have_at_least_8_characters' } ],
+  internalCode: 'saving_error' }
+11:48:22 - error:  
+{ message: 
+   [ { location: 'body',
+       param: 'email',
+       value: 'INVALID',
+       msg: 'email_is_not_valid' },
+     { location: 'body',
+       param: 'email',
+       value: 'INVALID',
+       msg: 'the_email_must_belong_to_the_wolox_domain' } ],
+  internalCode: 'saving_error' }
+11:48:22 - error:  
+{ message: 
+   [ { location: 'body',
+       param: 'firstName',
+       value: '',
+       msg: 'Invalid value' },
+     { location: 'body',
+       param: 'lastName',
+       value: '',
+       msg: 'Invalid value' },
+     { location: 'body',
+       param: 'email',
+       value: '',
+       msg: 'email_is_not_valid' },
+     { location: 'body',
+       param: 'email',
+       value: '',
+       msg: 'the_email_must_belong_to_the_wolox_domain' },
+     { location: 'body',
+       param: 'password',
+       value: '',
+       msg: 'the_password_must_have_at_least_8_characters' },
+     { location: 'body',
+       param: 'password',
+       value: '',
+       msg: 'the_password_must_be_alphanumeric' } ],
+  internalCode: 'saving_error' }
+11:48:22 - error:  
+{ message: 'email_already_exists',
+  internalCode: 'saving_error' }
+11:48:23 - error:  
+{ message: 'invalid_username_or_password',
+  internalCode: 'invalid_user' }
+11:48:23 - error:  
+{ message: 'invalid_username_or_password',
+  internalCode: 'invalid_user' }
+11:48:24 - error:  
+{ message: 'header_not_being_sent_or_incorrect',
+  internalCode: 'header_not_being_sent_or_incorrect' }
+11:48:24 - error:  
+{ message: 'header_not_being_sent_or_incorrect',
+  internalCode: 'header_not_being_sent_or_incorrect' }
+11:57:39 - info: Listening on port: 8080
+11:57:39 - error:  
+{ message: 'header_not_being_sent_or_incorrect',
+  internalCode: 'header_not_being_sent_or_incorrect' }
+11:57:40 - error:  
+{ message: 
+   [ { location: 'body',
+       param: 'password',
+       value: 'INVALID',
+       msg: 'the_password_must_have_at_least_8_characters' } ],
+  internalCode: 'saving_error' }
+11:57:40 - error:  
+{ message: 
+   [ { location: 'body',
+       param: 'email',
+       value: 'INVALID',
+       msg: 'email_is_not_valid' },
+     { location: 'body',
+       param: 'email',
+       value: 'INVALID',
+       msg: 'the_email_must_belong_to_the_wolox_domain' } ],
+  internalCode: 'saving_error' }
+11:57:40 - error:  
+{ message: 
+   [ { location: 'body',
+       param: 'firstName',
+       value: '',
+       msg: 'Invalid value' },
+     { location: 'body',
+       param: 'lastName',
+       value: '',
+       msg: 'Invalid value' },
+     { location: 'body',
+       param: 'email',
+       value: '',
+       msg: 'email_is_not_valid' },
+     { location: 'body',
+       param: 'email',
+       value: '',
+       msg: 'the_email_must_belong_to_the_wolox_domain' },
+     { location: 'body',
+       param: 'password',
+       value: '',
+       msg: 'the_password_must_have_at_least_8_characters' },
+     { location: 'body',
+       param: 'password',
+       value: '',
+       msg: 'the_password_must_be_alphanumeric' } ],
+  internalCode: 'saving_error' }
+11:57:40 - error:  
+{ message: 'email_already_exists',
+  internalCode: 'saving_error' }
+11:57:41 - error:  
+{ message: 'invalid_username_or_password',
+  internalCode: 'invalid_user' }
+11:57:41 - error:  
+{ message: 'invalid_username_or_password',
+  internalCode: 'invalid_user' }
+11:57:41 - error:  
+{ message: 'header_not_being_sent_or_incorrect',
+  internalCode: 'header_not_being_sent_or_incorrect' }
+11:57:42 - error:  
+{ message: 'header_not_being_sent_or_incorrect',
+  internalCode: 'header_not_being_sent_or_incorrect' }
+12:01:00 - info: Listening on port: 8080
+13:42:45 - info: Listening on port: 8080
+14:06:48 - info: Listening on port: 8080
+14:08:26 - info: Listening on port: 8080
+14:08:55 - info: Listening on port: 8080
+14:56:19 - info: Listening on port: 8080
+14:56:19 - error:  
+{ message: 
+   [ { location: 'body',
+       param: 'password',
+       value: 'INVALID',
+       msg: 'the_password_must_have_at_least_8_characters' } ],
+  internalCode: 'saving_error' }
+14:56:19 - error:  
+{ message: 
+   [ { location: 'body',
+       param: 'email',
+       value: 'INVALID',
+       msg: 'email_is_not_valid' },
+     { location: 'body',
+       param: 'email',
+       value: 'INVALID',
+       msg: 'the_email_must_belong_to_the_wolox_domain' } ],
+  internalCode: 'saving_error' }
+14:56:20 - error:  
+{ message: 
+   [ { location: 'body',
+       param: 'firstName',
+       value: '',
+       msg: 'Invalid value' },
+     { location: 'body',
+       param: 'lastName',
+       value: '',
+       msg: 'Invalid value' },
+     { location: 'body',
+       param: 'email',
+       value: '',
+       msg: 'email_is_not_valid' },
+     { location: 'body',
+       param: 'email',
+       value: '',
+       msg: 'the_email_must_belong_to_the_wolox_domain' },
+     { location: 'body',
+       param: 'password',
+       value: '',
+       msg: 'the_password_must_have_at_least_8_characters' },
+     { location: 'body',
+       param: 'password',
+       value: '',
+       msg: 'the_password_must_be_alphanumeric' } ],
+  internalCode: 'saving_error' }
+14:56:20 - error:  
+{ message: 'email_already_exists',
+  internalCode: 'saving_error' }
+14:56:43 - info: Listening on port: 8080
+14:56:43 - error:  
+{ message: 
+   [ { location: 'body',
+       param: 'password',
+       value: 'INVALID',
+       msg: 'the_password_must_have_at_least_8_characters' } ],
+  internalCode: 'saving_error' }
+14:56:43 - error:  
+{ message: 
+   [ { location: 'body',
+       param: 'email',
+       value: 'INVALID',
+       msg: 'email_is_not_valid' },
+     { location: 'body',
+       param: 'email',
+       value: 'INVALID',
+       msg: 'the_email_must_belong_to_the_wolox_domain' } ],
+  internalCode: 'saving_error' }
+14:56:43 - error:  
+{ message: 
+   [ { location: 'body',
+       param: 'firstName',
+       value: '',
+       msg: 'Invalid value' },
+     { location: 'body',
+       param: 'lastName',
+       value: '',
+       msg: 'Invalid value' },
+     { location: 'body',
+       param: 'email',
+       value: '',
+       msg: 'email_is_not_valid' },
+     { location: 'body',
+       param: 'email',
+       value: '',
+       msg: 'the_email_must_belong_to_the_wolox_domain' },
+     { location: 'body',
+       param: 'password',
+       value: '',
+       msg: 'the_password_must_have_at_least_8_characters' },
+     { location: 'body',
+       param: 'password',
+       value: '',
+       msg: 'the_password_must_be_alphanumeric' } ],
+  internalCode: 'saving_error' }
+14:56:44 - error:  
+{ message: 'email_already_exists',
+  internalCode: 'saving_error' }
+14:57:04 - info: Listening on port: 8080
+14:57:04 - error:  
+{ message: 
+   [ { location: 'body',
+       param: 'password',
+       value: 'INVALID',
+       msg: 'the_password_must_have_at_least_8_characters' } ],
+  internalCode: 'saving_error' }
+14:57:04 - error:  
+{ message: 
+   [ { location: 'body',
+       param: 'email',
+       value: 'INVALID',
+       msg: 'email_is_not_valid' },
+     { location: 'body',
+       param: 'email',
+       value: 'INVALID',
+       msg: 'the_email_must_belong_to_the_wolox_domain' } ],
+  internalCode: 'saving_error' }
+14:57:04 - error:  
+{ message: 
+   [ { location: 'body',
+       param: 'firstName',
+       value: '',
+       msg: 'Invalid value' },
+     { location: 'body',
+       param: 'lastName',
+       value: '',
+       msg: 'Invalid value' },
+     { location: 'body',
+       param: 'email',
+       value: '',
+       msg: 'email_is_not_valid' },
+     { location: 'body',
+       param: 'email',
+       value: '',
+       msg: 'the_email_must_belong_to_the_wolox_domain' },
+     { location: 'body',
+       param: 'password',
+       value: '',
+       msg: 'the_password_must_have_at_least_8_characters' },
+     { location: 'body',
+       param: 'password',
+       value: '',
+       msg: 'the_password_must_be_alphanumeric' } ],
+  internalCode: 'saving_error' }
+15:19:39 - info: Listening on port: 8080
+15:19:39 - error:  
+{ message: 
+   [ { location: 'body',
+       param: 'password',
+       value: 'INVALID',
+       msg: 'the_password_must_have_at_least_8_characters' } ],
+  internalCode: 'saving_error' }
+15:19:39 - error:  
+{ message: 
+   [ { location: 'body',
+       param: 'email',
+       value: 'INVALID',
+       msg: 'email_is_not_valid' },
+     { location: 'body',
+       param: 'email',
+       value: 'INVALID',
+       msg: 'the_email_must_belong_to_the_wolox_domain' } ],
+  internalCode: 'saving_error' }
+15:19:39 - error:  
+{ message: 
+   [ { location: 'body',
+       param: 'firstName',
+       value: '',
+       msg: 'Invalid value' },
+     { location: 'body',
+       param: 'lastName',
+       value: '',
+       msg: 'Invalid value' },
+     { location: 'body',
+       param: 'email',
+       value: '',
+       msg: 'email_is_not_valid' },
+     { location: 'body',
+       param: 'email',
+       value: '',
+       msg: 'the_email_must_belong_to_the_wolox_domain' },
+     { location: 'body',
+       param: 'password',
+       value: '',
+       msg: 'the_password_must_have_at_least_8_characters' },
+     { location: 'body',
+       param: 'password',
+       value: '',
+       msg: 'the_password_must_be_alphanumeric' } ],
+  internalCode: 'saving_error' }
+15:19:39 - error:  
+{ message: 'email_already_exists',
+  internalCode: 'saving_error' }
+15:19:40 - error:  
+{ message: 'invalid_username_or_password',
+  internalCode: 'invalid_user' }
+15:19:40 - error:  
+{ message: 'invalid_username_or_password',
+  internalCode: 'invalid_user' }
+15:20:53 - info: Listening on port: 8080
+15:20:53 - error:  
+{ message: 
+   [ { location: 'body',
+       param: 'password',
+       value: 'INVALID',
+       msg: 'the_password_must_have_at_least_8_characters' } ],
+  internalCode: 'saving_error' }
+15:20:53 - error:  
+{ message: 
+   [ { location: 'body',
+       param: 'email',
+       value: 'INVALID',
+       msg: 'email_is_not_valid' },
+     { location: 'body',
+       param: 'email',
+       value: 'INVALID',
+       msg: 'the_email_must_belong_to_the_wolox_domain' } ],
+  internalCode: 'saving_error' }
+15:20:54 - error:  
+{ message: 
+   [ { location: 'body',
+       param: 'firstName',
+       value: '',
+       msg: 'Invalid value' },
+     { location: 'body',
+       param: 'lastName',
+       value: '',
+       msg: 'Invalid value' },
+     { location: 'body',
+       param: 'email',
+       value: '',
+       msg: 'email_is_not_valid' },
+     { location: 'body',
+       param: 'email',
+       value: '',
+       msg: 'the_email_must_belong_to_the_wolox_domain' },
+     { location: 'body',
+       param: 'password',
+       value: '',
+       msg: 'the_password_must_have_at_least_8_characters' },
+     { location: 'body',
+       param: 'password',
+       value: '',
+       msg: 'the_password_must_be_alphanumeric' } ],
+  internalCode: 'saving_error' }
+15:20:54 - error:  
+{ message: 'email_already_exists',
+  internalCode: 'saving_error' }
+15:21:00 - error:  
+{ message: 'invalid_username_or_password',
+  internalCode: 'invalid_user' }
+15:21:18 - info: Listening on port: 8080
+15:21:19 - error:  
+{ message: 
+   [ { location: 'body',
+       param: 'password',
+       value: 'INVALID',
+       msg: 'the_password_must_have_at_least_8_characters' } ],
+  internalCode: 'saving_error' }
+15:21:19 - error:  
+{ message: 
+   [ { location: 'body',
+       param: 'email',
+       value: 'INVALID',
+       msg: 'email_is_not_valid' },
+     { location: 'body',
+       param: 'email',
+       value: 'INVALID',
+       msg: 'the_email_must_belong_to_the_wolox_domain' } ],
+  internalCode: 'saving_error' }
+15:21:19 - error:  
+{ message: 
+   [ { location: 'body',
+       param: 'firstName',
+       value: '',
+       msg: 'Invalid value' },
+     { location: 'body',
+       param: 'lastName',
+       value: '',
+       msg: 'Invalid value' },
+     { location: 'body',
+       param: 'email',
+       value: '',
+       msg: 'email_is_not_valid' },
+     { location: 'body',
+       param: 'email',
+       value: '',
+       msg: 'the_email_must_belong_to_the_wolox_domain' },
+     { location: 'body',
+       param: 'password',
+       value: '',
+       msg: 'the_password_must_have_at_least_8_characters' },
+     { location: 'body',
+       param: 'password',
+       value: '',
+       msg: 'the_password_must_be_alphanumeric' } ],
+  internalCode: 'saving_error' }
+15:21:19 - error:  
+{ message: 'email_already_exists',
+  internalCode: 'saving_error' }
+15:21:20 - error:  
+{ message: 'invalid_username_or_password',
+  internalCode: 'invalid_user' }
+15:21:20 - error:  
+{ message: 'invalid_username_or_password',
+  internalCode: 'invalid_user' }
+15:30:41 - info: Listening on port: 8080
+15:30:41 - error:  
+{ message: 
+   [ { location: 'body',
+       param: 'password',
+       value: 'INVALID',
+       msg: 'the_password_must_have_at_least_8_characters' } ],
+  internalCode: 'saving_error' }
+15:30:41 - error:  
+{ message: 
+   [ { location: 'body',
+       param: 'email',
+       value: 'INVALID',
+       msg: 'email_is_not_valid' },
+     { location: 'body',
+       param: 'email',
+       value: 'INVALID',
+       msg: 'the_email_must_belong_to_the_wolox_domain' } ],
+  internalCode: 'saving_error' }
+15:30:41 - error:  
+{ message: 
+   [ { location: 'body',
+       param: 'firstName',
+       value: '',
+       msg: 'Invalid value' },
+     { location: 'body',
+       param: 'lastName',
+       value: '',
+       msg: 'Invalid value' },
+     { location: 'body',
+       param: 'email',
+       value: '',
+       msg: 'email_is_not_valid' },
+     { location: 'body',
+       param: 'email',
+       value: '',
+       msg: 'the_email_must_belong_to_the_wolox_domain' },
+     { location: 'body',
+       param: 'password',
+       value: '',
+       msg: 'the_password_must_have_at_least_8_characters' },
+     { location: 'body',
+       param: 'password',
+       value: '',
+       msg: 'the_password_must_be_alphanumeric' } ],
+  internalCode: 'saving_error' }
+15:30:41 - error:  
+{ message: 'email_already_exists',
+  internalCode: 'saving_error' }

@@ -1,0 +1,160 @@
+08:36:23 - error: Pending migrations, run: npm run migrations
+08:41:20 - info: Listening on port: 8080
+08:41:23 - error:  
+{ message: 'header_not_being_sent',
+  internalCode: 'header_not_being_sent' }
+08:43:06 - info: Listening on port: 8080
+08:43:38 - info: Listening on port: 8080
+08:44:17 - info: Listening on port: 8080
+08:44:26 - info: Listening on port: 8080
+08:44:41 - error:  
+{ message: 'HEADER_NOT_BEING_SENT_OR_INCORRECT',
+  internalCode: 'HEADER_NOT_BEING_SENT_OR_INCORRECT' }
+08:53:32 - info: Listening on port: 8080
+08:55:37 - info: Listening on port: 8080
+08:55:46 - error:  
+{ message: 'HEADER_NOT_BEING_SENT_OR_INCORRECT',
+  internalCode: 'HEADER_NOT_BEING_SENT_OR_INCORRECT' }
+08:56:31 - info: Listening on port: 8080
+08:57:35 - info: Listening on port: 8080
+08:59:10 - info: Listening on port: 8080
+08:59:20 - info: Listening on port: 8080
+08:59:36 - info: Listening on port: 8080
+09:00:04 - info: Listening on port: 8080
+09:01:00 - info: Listening on port: 8080
+09:01:18 - info: Listening on port: 8080
+09:01:34 - info: Listening on port: 8080
+09:01:44 - info: Listening on port: 8080
+09:10:43 - info: Listening on port: 8080
+09:14:12 - info: Listening on port: 8080
+09:18:09 - info: Listening on port: 8080
+09:20:08 - info: Listening on port: 8080
+09:21:51 - info: Listening on port: 8080
+09:21:51 - error:  
+{ message: 'permisson_error', internalCode: 'permisson_error' }
+09:43:49 - info: Listening on port: 8080
+09:43:51 - error:  
+{ message: 'permisson_error', internalCode: 'permisson_error' }
+09:44:14 - error:  
+{ message: 'Invalid_username_or_password',
+  internalCode: 'invalid_user' }
+09:44:32 - error:  
+{ message: 'Invalid_username_or_password',
+  internalCode: 'invalid_user' }
+09:44:33 - error:  
+{ message: 'Invalid_username_or_password',
+  internalCode: 'invalid_user' }
+09:44:40 - error:  
+{ message: 'Invalid_username_or_password',
+  internalCode: 'invalid_user' }
+09:44:42 - error:  
+{ message: 'Invalid_username_or_password',
+  internalCode: 'invalid_user' }
+09:45:21 - info: Listening on port: 8080
+09:45:39 - error:  
+{ message: 'Invalid_username_or_password',
+  internalCode: 'invalid_user' }
+09:46:30 - error:  
+{ message: 'Invalid_username_or_password',
+  internalCode: 'invalid_user' }
+09:47:05 - error:  
+{ message: 'Invalid_username_or_password',
+  internalCode: 'invalid_user' }
+09:48:28 - info: Listening on port: 8080
+09:49:49 - error:  
+{ message: 'permisson_error', internalCode: 'permisson_error' }
+09:50:45 - info: Listening on port: 8080
+09:50:50 - info: Listening on port: 8080
+09:51:10 - info: Listening on port: 8080
+09:51:18 - info: Listening on port: 8080
+09:51:25 - info: Listening on port: 8080
+09:51:33 - info: Listening on port: 8080
+09:54:08 - info: Listening on port: 8080
+09:55:04 - error:  
+{ message: {}, internalCode: 'default_error' }
+09:55:27 - error:  
+{ message: {}, internalCode: 'default_error' }
+10:01:31 - info: Listening on port: 8080
+10:01:33 - error:  
+{ message: undefined, internalCode: 'the_email_already_exists' }
+10:02:28 - info: Listening on port: 8080
+10:02:39 - error:  
+{ message: 'invalid_email',
+  internalCode: 'the_email_already_exists' }
+10:03:05 - info: Listening on port: 8080
+10:04:23 - info: Listening on port: 8080
+10:05:37 - info: Listening on port: 8080
+10:05:40 - info: Listening on port: 8080
+10:06:27 - info: Listening on port: 8080
+10:06:33 - error:  
+{ message: 'invalid_email',
+  internalCode: 'the_email_already_exists' }
+10:07:18 - error:  TypeError: Cannot read property 'administrator' of undefined
+    at exports.create (/home/ecarzoglio/Documents/ec-express-js/node-ex/app/controllers/users.js:18:33)
+    at Layer.handle [as handle_request] (/home/ecarzoglio/Documents/ec-express-js/node-ex/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ecarzoglio/Documents/ec-express-js/node-ex/node_modules/express/lib/router/route.js:137:13)
+    at runner.then.errors (/home/ecarzoglio/Documents/ec-express-js/node-ex/node_modules/express-validator/check/check.js:18:7)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+10:15:32 - info: Listening on port: 8080
+10:15:58 - error:  
+{ message: 'all_parameters_are_needed',
+  internalCode: 'saving_error' }
+10:16:30 - error:  
+{ message: 'all_parameters_are_needed',
+  internalCode: 'saving_error' }
+10:17:35 - error:  
+{ message: 'all_parameters_are_needed',
+  internalCode: 'saving_error' }
+10:18:03 - error:  
+{ message: 'all_parameters_are_needed',
+  internalCode: 'saving_error' }
+10:24:34 - info: Listening on port: 8080
+10:24:41 - error:  
+{ message: 'invalid_email',
+  internalCode: 'the_email_already_exists' }
+10:25:43 - info: Listening on port: 8080
+10:25:48 - info: Listening on port: 8080
+10:27:43 - info: Listening on port: 8080
+10:28:44 - info: Listening on port: 8080
+10:28:56 - error:  
+{ message: 'invalid_email',
+  internalCode: 'the_email_already_exists' }
+11:30:17 - info: Listening on port: 8080
+11:31:32 - info: Listening on port: 8080
+11:32:29 - error:  Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.(anonymous function) [as post] (/home/ecarzoglio/Documents/ec-express-js/node-ex/node_modules/express/lib/router/route.js:202:15)
+    at Function.app.(anonymous function) [as post] (/home/ecarzoglio/Documents/ec-express-js/node-ex/node_modules/express/lib/application.js:482:19)
+    at Object.exports.init.app [as init] (/home/ecarzoglio/Documents/ec-express-js/node-ex/app/routes.js:15:7)
+    at Promise.resolve.then.then (/home/ecarzoglio/Documents/ec-express-js/node-ex/app.js:54:14)
+    at <anonymous>
+11:33:10 - error:  Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.(anonymous function) [as post] (/home/ecarzoglio/Documents/ec-express-js/node-ex/node_modules/express/lib/router/route.js:202:15)
+    at Function.app.(anonymous function) [as post] (/home/ecarzoglio/Documents/ec-express-js/node-ex/node_modules/express/lib/application.js:482:19)
+    at Object.exports.init.app [as init] (/home/ecarzoglio/Documents/ec-express-js/node-ex/app/routes.js:15:7)
+    at Promise.resolve.then.then (/home/ecarzoglio/Documents/ec-express-js/node-ex/app.js:54:14)
+    at <anonymous>
+11:34:46 - error:  Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.(anonymous function) [as post] (/home/ecarzoglio/Documents/ec-express-js/node-ex/node_modules/express/lib/router/route.js:202:15)
+    at Function.app.(anonymous function) [as post] (/home/ecarzoglio/Documents/ec-express-js/node-ex/node_modules/express/lib/application.js:482:19)
+    at Object.exports.init.app [as init] (/home/ecarzoglio/Documents/ec-express-js/node-ex/app/routes.js:15:7)
+    at Promise.resolve.then.then (/home/ecarzoglio/Documents/ec-express-js/node-ex/app.js:54:14)
+    at <anonymous>
+11:35:34 - info: Listening on port: 8080
+11:52:59 - info: Listening on port: 8080
+11:53:28 - info: Listening on port: 8080
+11:54:50 - info: Listening on port: 8080
+11:55:48 - info: Listening on port: 8080
+11:55:51 - error:  
+{ message: 'invalid_email',
+  internalCode: 'the_email_already_exists' }
+11:55:53 - error:  
+{ message: 'invalid_email',
+  internalCode: 'the_email_already_exists' }
+11:56:56 - info: Listening on port: 8080
+11:57:12 - info: Listening on port: 8080
+11:59:00 - info: Listening on port: 8080
+12:00:32 - info: Listening on port: 8080
+12:00:36 - error:  
+{ message: 'invalid_email',
+  internalCode: 'the_email_already_exists' }
