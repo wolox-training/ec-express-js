@@ -18,5 +18,5 @@ services:
   - postgresql
 
 before_script:
-  - psql -c "CREATE DATABASE nodetesting WITH OWNER ecarzoglio;" -U postgres
+  - psql -c "CREATE DATABASE nodetesting;" -U postgres
   - node_modules/.bin/sequelize db:migrate
