@@ -18,5 +18,6 @@ services:
   - postgresql
 
 before_script:
-  - psql -c "CREATE DATABASE nodetesting;" -U postgres
+  - psql "CREATE USER ecarzoglio PASSWORD '123456';" -U
+  - psql -c "CREATE DATABASE nodetesting WITH OWNER ecarzoglio;" -U postgres
   - node_modules/.bin/sequelize db:migrate
