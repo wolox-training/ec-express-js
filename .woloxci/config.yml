@@ -1,6 +1,6 @@
 config:
   dockerfile: .woloxci/Dockerfile
-  project_name: express-js-bootstrap
+  project_name: ec-express-js
 
 services:
   - postgres

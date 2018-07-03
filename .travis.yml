@@ -19,4 +19,4 @@ services:
 
 before_script:
   - psql -c "CREATE DATABASE nodetesting;" -U postgres
-  - node_modules/.bin/sequelize db:migrate
+  - NODE_ENV=testing node_modules/.bin/sequelize db:migrate
