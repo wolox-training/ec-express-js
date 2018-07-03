@@ -7,6 +7,7 @@ sudo: true
 
 env:
   - CXX=g++-4.8
+  - NODE_ENV=testing
 addons:
   apt:
     sources:
@@ -19,4 +20,4 @@ services:
 
 before_script:
   - psql -c "CREATE DATABASE nodetesting;" -U postgres
-  - NODE_ENV=testing node_modules/.bin/sequelize db:migrate
+  - node_modules/.bin/sequelize db:migrate
