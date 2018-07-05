@@ -84,7 +84,7 @@ exports.login = (req, res, next) => {
 };
 
 exports.listAll = (req, res, next) => {
-  User.findAllUsers().then(users => {
+  User.findAllUsers(req.query.limit, req.query.offset).then(users => {
     res.status(200);
     res.send({ users });
   });

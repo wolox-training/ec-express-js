@@ -45,10 +45,11 @@ module.exports = (sequelize, DataTypes) => {
       throw errors.databaseError(err.detail);
     });
   };
-  User.findAllUsers = (limit = 3, offset = 1) => {
-    return User.findAndCountAll({
+  User.findAllUsers = (limit = 3, offset = 0) => {
+    return User.findAll({
       offset,
-      limit
+      limit,
+      order: ['id']
     }).catch(err => {
       throw errors.databaseError(err.detail);
     });
