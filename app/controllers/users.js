@@ -82,3 +82,10 @@ exports.login = (req, res, next) => {
     }
   });
 };
+
+exports.listAll = (req, res, next) => {
+  User.findAllUsers().then(users => {
+    res.status(200);
+    res.send({ users });
+  });
+};
