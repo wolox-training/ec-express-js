@@ -185,4 +185,41 @@ describe('users', () => {
       });
     });
   });
+  describe('/admin/users POST', () => {
+    it(`should fail because ${sessionManager.HEADER_NAME} header is not being sent or incorrect`, done => {
+      chai
+        .request(server)
+        .post('/admin/users')
+        .catch(err => {
+          err.should.have.status(403);
+          err.response.should.be.json;
+          err.response.body.should.have.property('message');
+          err.response.body.should.have.property('internal_code');
+          done();
+        });
+    });
+
+    it('should be successful', done => {
+      helperTest.createUser(true).then(u => {
+        helperTest.successfullLogin().then(res => {
+          chai
+            .request(server)
+            .post('/admin/users')
+            .send({
+              firstName: 'name',
+              lastName: 'lastname',
+              email: 'anotherEmail@wolox.com.ar',
+              password: '12345678'
+            })
+            .set(sessionManager.HEADER_NAME, `Bearer ${res.headers[sessionManager.HEADER_NAME]}`)
+            .then(response => {
+              response.should.have.status(200);
+              response.should.be.json;
+              dictum.chai(response);
+              done();
+            });
+        });
+      });
+    });
+  });
 });

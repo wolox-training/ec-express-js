@@ -89,3 +89,40 @@ exports.listAll = (req, res, next) => {
     res.send({ users });
   });
 };
+
+exports.updateOrCreate = (req, res, next) => {
+  const user = req.body
+    ? {
+        firstName: req.body.firstName,
+        lastName: req.body.lastName,
+        password: req.body.password,
+        email: req.body.email,
+        administrator: 't'
+      }
+    : {};
+  const email = user.email;
+  User.findByEmail(user.email)
+    .then(u => {
+      if (u) {
+        User.updateModel(user)
+          .then(response => {
+            res.send(200);
+            res.end();
+          })
+          .catch(err => {
+            next(err);
+          });
+      } else {
+        createUser(user)
+          .then(s => {
+            res.send({ user_created_as_admin: `${user.email}` });
+            res.status(200);
+            res.end();
+          })
+          .catch(err => {
+            next(err);
+          });
+      }
+    })
+    .catch(next);
+};

@@ -13,14 +13,15 @@ exports.successfullLogin = () => {
     });
 };
 
-exports.createUser = () => {
+exports.createUser = admin => {
   const password = '12345678';
   return helperPassword.encrypt(password).then(hash => {
     return User.create({
       firstName: 'firstName',
       lastName: 'lastName',
       password: `${hash}`,
-      email: 'email@wolox.com.ar'
+      email: 'email@wolox.com.ar',
+      administrator: admin
     });
   });
 };

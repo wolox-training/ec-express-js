@@ -22,6 +22,10 @@ module.exports = (sequelize, DataTypes) => {
       password: {
         type: DataTypes.STRING,
         allowNull: false
+      },
+      administrator: {
+        type: DataTypes.BOOLEAN,
+        defaultValue: false
       }
     },
     {}
@@ -52,6 +56,20 @@ module.exports = (sequelize, DataTypes) => {
       order: ['id']
     }).catch(err => {
       throw errors.databaseError(err.detail);
+    });
+  };
+  User.updateModel = user => {
+    return User.update(
+      {
+        administrator: 't'
+      },
+      {
+        where: {
+          email: user.email
+        }
+      }
+    ).catch(err => {
+      throw errors.updateError();
     });
   };
   return User;
