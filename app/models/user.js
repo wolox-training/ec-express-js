@@ -31,7 +31,9 @@ module.exports = (sequelize, DataTypes) => {
     {}
   );
 
-  User.associate = function(models) {};
+  User.associate = function(models) {
+    User.hasMany(models.Purchase);
+  };
   User.createModel = user => {
     return User.create(user).catch(err => {
       throw errors.savingError();
@@ -40,7 +42,7 @@ module.exports = (sequelize, DataTypes) => {
   User.findOneModel = email => {
     return User.findOne({ where: { email } }).then(result => {
       if (result !== null) {
-        throw errors.findingError();
+        throw errors.databaseError();
       }
     });
   };

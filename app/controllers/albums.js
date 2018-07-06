@@ -1,6 +1,8 @@
 'use strict';
 
 const fetch = require('node-fetch'),
+  Purchase = require('../models').Purchase,
+  User = require('../models').User,
   errors = require('../errors');
 
 exports.listAll = (req, res, next) => {
@@ -15,4 +17,22 @@ exports.listAll = (req, res, next) => {
       res.status(500);
       next(errors.defaultError('server_response_error'));
     });
+};
+
+exports.buyAlbum = (req, res, next) => {
+  const purchase = {
+    UserId: req.user.id,
+    albumId: req.params.id
+  };
+  return Purchase.createModel(purchase).then(p => {
+    const created = p[1];
+    if (created) {
+      res.send({ purchased_album: `${purchase.albumId}` });
+      res.status(200);
+    } else {
+      next(errors.defaultError('user_already_bought_this_album'));
+      res.status(500);
+    }
+    res.end();
+  });
 };
