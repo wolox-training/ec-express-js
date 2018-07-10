@@ -28,15 +28,5 @@ module.exports = (sequelize, DataTypes) => {
       }
     });
   };
-  Purchase.createModel1 = purchase => {
-    return Purchase.create(purchase).catch(err => {
-      throw errors.savingError();
-    });
-  };
-  Purchase.findOneModel = purchase => {
-    return Purchase.findOne(purchase).catch(err => {
-      throw errors.databaseError();
-    });
-  };
   return Purchase;
 };
