@@ -72,7 +72,7 @@ exports.login = (req, res, next) => {
 
           res.status(200);
           res.set(sessionManager.HEADER_NAME, auth);
-          res.send(u);
+          res.send({ user: u, token: `Your token is valid for ${process.env.TOKEN_EXPIRE_TIME}` });
         } else {
           next(errors.invalidUser());
         }
