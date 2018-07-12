@@ -17,6 +17,8 @@ exports.secure = (req, res, next) => {
           next(errors.headerError());
         }
       });
+    } else {
+      next(errors.defaultError('token_expired'));
     }
   } else {
     next(errors.headerError());

@@ -224,9 +224,6 @@ describe('users', () => {
   });
   describe('users/me POST', () => {
     it('should be succesfull, the token is already active', done => {
-      before(function () {
-        process.env.TOKEN_EXPIRE_TIME = '2s';
-      }
       helperTest.createUser().then(u => {
         helperTest.successfullLogin().then(log => {
           chai
@@ -235,6 +232,29 @@ describe('users', () => {
             .send(u)
             .set(sessionManager.HEADER_NAME, `Bearer ${log.headers[sessionManager.HEADER_NAME]}`)
             .then(res => {
+              res.should.have.status(200);
+              res.should.be.json;
+              dictum.chai(res);
+              done();
+            });
+        });
+      });
+    });
+
+    it('should fail because the token expired', done => {
+      process.env.TOKEN_EXPIRE_TIME = '0s';
+      helperTest.createUser().then(u => {
+        helperTest.successfullLogin().then(log => {
+          chai
+            .request(server)
+            .post('/users/me')
+            .send(u)
+            .set(sessionManager.HEADER_NAME, `Bearer ${log.headers[sessionManager.HEADER_NAME]}`)
+            .catch(err => {
+              err.should.have.status(500);
+              err.response.should.be.json;
+              err.response.body.should.have.property('message');
+              err.response.body.should.have.property('internal_code');
               done();
             });
         });
