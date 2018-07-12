@@ -8,15 +8,16 @@ exports.secure = (req, res, next) => {
     const bearer = auth.split(' ');
     const bearerToken = bearer[1];
     const decoded = sessionManager.decode(bearerToken);
-
-    return User.findOne({ where: decoded.user.id }).then(u => {
-      if (u) {
-        req.user = u;
-        next();
-      } else {
-        next(errors.headerError());
-      }
-    });
+    if (sessionManager.verify(bearerToken)) {
+      return User.findOne({ where: decoded.user.id }).then(u => {
+        if (u) {
+          req.user = u;
+          next();
+        } else {
+          next(errors.headerError());
+        }
+      });
+    }
   } else {
     next(errors.headerError());
   }
