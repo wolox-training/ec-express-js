@@ -117,7 +117,7 @@ describe('albums', () => {
     });
   });
   it('should be succesfull, a user can see his albums', done => {
-    helperTest.createUser(true).then(u => {
+    helperTest.createUser().then(u => {
       helperTest.successfullLogin().then(res => {
         chai
           .request(server)
@@ -129,6 +129,55 @@ describe('albums', () => {
             dictum.chai(response);
             done();
           });
+      });
+    });
+  });
+  describe('/users/albums/:id/photos GET', () => {
+    it(`should fail because ${sessionManager.HEADER_NAME} header is not being sent or incorrect`, done => {
+      chai
+        .request(server)
+        .get('/users/albums/1/photos')
+        .catch(err => {
+          err.should.have.status(403);
+          err.response.should.be.json;
+          err.response.body.should.have.property('message');
+          err.response.body.should.have.property('internal_code');
+          done();
+        });
+    });
+    it('should fail because the user havent a bought album', done => {
+      helperTest.createUser().then(u => {
+        helperTest.successfullLogin().then(res => {
+          chai
+            .request(server)
+            .get('/users/albums/1/photos')
+            .set(sessionManager.HEADER_NAME, `Bearer ${res.headers[sessionManager.HEADER_NAME]}`)
+            .catch(err => {
+              err.should.have.status(503);
+              err.response.should.be.json;
+              err.response.body.should.have.property('message', 'the_album_not_was_bought');
+              err.response.body.should.have.property('internal_code');
+              done();
+            });
+        });
+      });
+    });
+    it('should be succesfull', done => {
+      helperTest.createUser().then(u => {
+        helperTest.successfullLogin().then(log => {
+          helperTest.buyAlbum().then(res => {
+            chai
+              .request(server)
+              .get('/users/albums/1/photos')
+              .set(sessionManager.HEADER_NAME, `Bearer ${log.headers[sessionManager.HEADER_NAME]}`)
+              .then(response => {
+                response.should.have.status(200);
+                response.should.be.json;
+                dictum.chai(response);
+                done();
+              });
+          });
+        });
       });
     });
   });

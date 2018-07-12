@@ -29,6 +29,13 @@ module.exports = (sequelize, DataTypes) => {
       }
     });
   };
+  Purchase.findOneModel = purchase => {
+    const albumId = purchase.albumId;
+    const UserId = purchase.UserId;
+    return Purchase.findOne({ where: { UserId, albumId } }).catch(err => {
+      throw errors.databaseError();
+    });
+  };
   Purchase.findAllPurchasesFromUser = UserId => {
     return Purchase.findAll({ where: { UserId } }).catch(err => {
       throw errors.databaseError();

@@ -1,7 +1,8 @@
 const server = require('./../../app'),
   chai = require('chai'),
   helperPassword = require('../helpers/password'),
-  User = require('../models').User;
+  User = require('../models').User,
+  Purchase = require('../models').Purchase;
 
 exports.successfullLogin = () => {
   return chai
@@ -23,5 +24,12 @@ exports.createUser = admin => {
       email: 'email@wolox.com.ar',
       administrator: admin
     });
+  });
+};
+
+exports.buyAlbum = user => {
+  return Purchase.create({
+    albumId: 1,
+    UserId: 1
   });
 };

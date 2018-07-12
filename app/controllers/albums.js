@@ -44,3 +44,28 @@ exports.listOwn = (req, res, next) => {
     res.send({ albums });
   });
 };
+
+exports.listPhotos = (req, res, next) => {
+  const purchase = {
+    UserId: req.user.id,
+    albumId: req.params.id
+  };
+  Purchase.findOneModel(purchase).then(album => {
+    if (album) {
+      fetch(`https://jsonplaceholder.typicode.com/photos?albumId=${purchase.albumId}`)
+        .then(response => response.json())
+        .then(json => {
+          res.status(200);
+          res.send(json);
+          res.end();
+        })
+        .catch(err => {
+          res.status(500);
+          next(errors.defaultError('server_response_error'));
+        });
+    } else {
+      res.status(503);
+      next(errors.databaseError('the_album_not_was_bought'));
+    }
+  });
+};
