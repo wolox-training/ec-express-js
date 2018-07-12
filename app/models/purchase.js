@@ -1,13 +1,14 @@
 'use strict';
 
 const errors = require('../errors');
+const User = require('../models').User;
 
 module.exports = (sequelize, DataTypes) => {
   const Purchase = sequelize.define(
     'Purchase',
     {
       UserId: {
-        type: DataTypes.STRING,
+        type: DataTypes.INTEGER,
         allowNull: false
       },
       albumId: {
@@ -28,13 +29,8 @@ module.exports = (sequelize, DataTypes) => {
       }
     });
   };
-  Purchase.createModel1 = purchase => {
-    return Purchase.create(purchase).catch(err => {
-      throw errors.savingError();
-    });
-  };
-  Purchase.findOneModel = purchase => {
-    return Purchase.findOne(purchase).catch(err => {
+  Purchase.findAllPurchasesFromUser = UserId => {
+    return Purchase.findAll({ where: { UserId } }).catch(err => {
       throw errors.databaseError();
     });
   };

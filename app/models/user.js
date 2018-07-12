@@ -1,6 +1,7 @@
 'use strict';
 
 const errors = require('../errors');
+const Purchase = require('../models').Purchase;
 
 module.exports = (sequelize, DataTypes) => {
   const User = sequelize.define(

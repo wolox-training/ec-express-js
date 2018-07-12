@@ -29,3 +29,11 @@ exports.secureAdmin = (req, res, next) => {
     next(errors.permissonError());
   }
 };
+
+exports.verifyId = (req, res, next) => {
+  if (req.user.administrator || req.user.id === parseInt(req.params.user_id)) {
+    next();
+  } else {
+    next(errors.permissonError());
+  }
+};

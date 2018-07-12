@@ -11,4 +11,5 @@ exports.init = app => {
   app.post('/admin/users', [auth.secure, auth.secureAdmin], user.updateOrCreate);
   app.get('/albums', [auth.secure], albums.listAll);
   app.post('/albums/:id', [auth.secure], albums.buyAlbum);
+  app.get('/users/:user_id/albums', [auth.secure, auth.verifyId], albums.listOwn);
 };

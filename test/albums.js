@@ -56,5 +56,80 @@ describe('albums', () => {
         });
       });
     });
+    it(`should fail because ${sessionManager.HEADER_NAME} header is not being sent or incorrect`, done => {
+      chai
+        .request(server)
+        .post('/albums/:id')
+        .catch(err => {
+          err.should.have.status(403);
+          err.response.should.be.json;
+          err.response.body.should.have.property('message');
+          err.response.body.should.have.property('internal_code');
+          done();
+        });
+    });
+  });
+  describe('/users/:user_id/albums GET', () => {
+    it(`should fail because ${sessionManager.HEADER_NAME} header is not being sent or incorrect`, done => {
+      chai
+        .request(server)
+        .get('/users/1/albums')
+        .catch(err => {
+          err.should.have.status(403);
+          err.response.should.be.json;
+          err.response.body.should.have.property('message');
+          err.response.body.should.have.property('internal_code');
+          done();
+        });
+    });
+  });
+  it('should fail because a normal user cant see the albums of another user', done => {
+    helperTest.createUser().then(u => {
+      helperTest.successfullLogin().then(res => {
+        chai
+          .request(server)
+          .get('/users/2/albums')
+          .set(sessionManager.HEADER_NAME, `Bearer ${res.headers[sessionManager.HEADER_NAME]}`)
+          .catch(err => {
+            err.should.have.status(405);
+            err.response.should.be.json;
+            err.response.body.should.have.property('message');
+            err.response.body.should.have.property('internal_code');
+            done();
+          });
+      });
+    });
+  });
+  it('should be succesfull because an admin user can see the albums of another users', done => {
+    helperTest.createUser(true).then(u => {
+      helperTest.successfullLogin().then(res => {
+        chai
+          .request(server)
+          .get('/users/2/albums')
+          .set(sessionManager.HEADER_NAME, `Bearer ${res.headers[sessionManager.HEADER_NAME]}`)
+          .then(response => {
+            response.should.have.status(200);
+            response.should.be.json;
+            dictum.chai(response);
+            done();
+          });
+      });
+    });
+  });
+  it('should be succesfull, a user can see his albums', done => {
+    helperTest.createUser(true).then(u => {
+      helperTest.successfullLogin().then(res => {
+        chai
+          .request(server)
+          .get('/users/1/albums')
+          .set(sessionManager.HEADER_NAME, `Bearer ${res.headers[sessionManager.HEADER_NAME]}`)
+          .then(response => {
+            response.should.have.status(200);
+            response.should.be.json;
+            dictum.chai(response);
+            done();
+          });
+      });
+    });
   });
 });
