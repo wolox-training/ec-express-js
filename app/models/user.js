@@ -22,16 +22,11 @@ module.exports = (sequelize, DataTypes) => {
       password: {
         type: DataTypes.STRING,
         allowNull: false
-      },
-      administrator: {
-        type: DataTypes.BOOLEAN,
-        defaultValue: false
       }
     },
     {}
   );
 
-  User.associate = function(models) {};
   User.createModel = user => {
     return User.create(user).catch(err => {
       throw errors.savingError();
