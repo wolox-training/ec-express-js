@@ -27,7 +27,6 @@ module.exports = (sequelize, DataTypes) => {
     {}
   );
 
-  User.associate = function(models) {};
   User.createModel = user => {
     return User.create(user).catch(err => {
       throw errors.savingError();
