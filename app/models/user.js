@@ -26,7 +26,7 @@ module.exports = (sequelize, DataTypes) => {
     },
     {}
   );
-  
+
   User.createModel = user => {
     return User.create(user).catch(err => {
       throw errors.savingError();
