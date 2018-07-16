@@ -2,7 +2,8 @@ const server = require('./../../app'),
   chai = require('chai'),
   helperPassword = require('../helpers/password'),
   User = require('../models').User,
-  Purchase = require('../models').Purchase;
+  Purchase = require('../models').Purchase,
+  hashToken = require('./hashToken');
 
 exports.successfullLogin = () => {
   return chai
@@ -22,7 +23,8 @@ exports.createUser = admin => {
       lastName: 'lastName',
       password: `${hash}`,
       email: 'email@wolox.com.ar',
-      administrator: admin
+      administrator: admin,
+      hash: hashToken.createHash()
     });
   });
 };

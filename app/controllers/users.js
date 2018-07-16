@@ -2,17 +2,19 @@ const User = require('../models').User,
   { validationResult } = require('express-validator/check'),
   errors = require('../errors'),
   sessionManager = require('./../services/sessionManager'),
-  helperPassword = require('../helpers/password');
+  helperPassword = require('../helpers/password'),
+  hashToken = require('../helpers/hashToken');
 
 const createUser = function(user) {
   return new Promise(function(resolve, reject) {
     const saltRounds = 10;
-    User.findOneModel(user.email)
+    return User.findOneModel(user.email)
       .then(u => {
         helperPassword.encrypt(user.password).then(hash => {
           user.password = hash;
+          user.hash = hashToken.createHash();
 
-          User.createModel(user)
+          return User.createModel(user)
             .then(s => {
               resolve(s);
             })
@@ -130,4 +132,18 @@ exports.updateOrCreate = (req, res, next) => {
 exports.loggedUser = (req, res, next) => {
   res.status(200);
   res.send(req.user);
+};
+
+exports.invalidateAll = (req, res, next) => {
+  const hash = hashToken.createHash();
+  const user = req.user.email;
+  User.updateHash(user, hash)
+    .then(response => {
+      res.status(200);
+      res.send({ hash: 'changed', sessions: 'All sessions was invalidated' });
+      res.end();
+    })
+    .catch(err => {
+      next(err);
+    });
 };

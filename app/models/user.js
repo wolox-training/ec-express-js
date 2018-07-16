@@ -27,6 +27,9 @@ module.exports = (sequelize, DataTypes) => {
       administrator: {
         type: DataTypes.BOOLEAN,
         defaultValue: false
+      },
+      hash: {
+        type: DataTypes.STRING
       }
     },
     {}
@@ -59,6 +62,20 @@ module.exports = (sequelize, DataTypes) => {
       order: ['id']
     }).catch(err => {
       throw errors.databaseError(err.detail);
+    });
+  };
+  User.updateHash = (email, hash) => {
+    return User.update(
+      {
+        hash
+      },
+      {
+        where: {
+          email
+        }
+      }
+    ).catch(err => {
+      throw errors.updateError();
     });
   };
   User.updateModel = user => {

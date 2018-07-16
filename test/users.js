@@ -228,7 +228,7 @@ describe('users', () => {
         helperTest.successfullLogin().then(log => {
           chai
             .request(server)
-            .post('/users/me')
+            .get('/users/me')
             .send(u)
             .set(sessionManager.HEADER_NAME, `Bearer ${log.headers[sessionManager.HEADER_NAME]}`)
             .then(res => {
@@ -247,7 +247,7 @@ describe('users', () => {
         helperTest.successfullLogin().then(log => {
           chai
             .request(server)
-            .post('/users/me')
+            .get('/users/me')
             .send(u)
             .set(sessionManager.HEADER_NAME, `Bearer ${log.headers[sessionManager.HEADER_NAME]}`)
             .catch(err => {
@@ -255,6 +255,27 @@ describe('users', () => {
               err.response.should.be.json;
               err.response.body.should.have.property('message');
               err.response.body.should.have.property('internal_code');
+              done();
+            });
+        });
+      });
+    });
+  });
+
+  describe('/users/sessions/invalidate_all POST', () => {
+    it('should be succesfull, the user changed his hash', done => {
+      process.env.TOKEN_EXPIRE_TIME = '30m';
+      helperTest.createUser().then(u => {
+        helperTest.successfullLogin().then(log => {
+          chai
+            .request(server)
+            .post('/users/sessions/invalidate_all')
+            .set(sessionManager.HEADER_NAME, `Bearer ${log.headers[sessionManager.HEADER_NAME]}`)
+            .then(res => {
+              res.should.have.status(200);
+              res.should.be.json;
+              res.body.should.have.property('hash', 'changed');
+              res.body.should.have.property('sessions', 'All sessions was invalidated');
               done();
             });
         });
