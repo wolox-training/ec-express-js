@@ -32,10 +32,10 @@ module.exports = (sequelize, DataTypes) => {
       throw errors.savingError();
     });
   };
-  User.findOneModel = email => {
+  User.getOne = email => {
     return User.findOne({ where: { email } }).then(result => {
-      if (result !== null) {
-        throw errors.findingError();
+      if (result) {
+        throw errors.databaseError();
       }
     });
   };
