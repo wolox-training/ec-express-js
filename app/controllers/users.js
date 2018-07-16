@@ -4,15 +4,15 @@ const User = require('../models').User,
   sessionManager = require('./../services/sessionManager'),
   helperPassword = require('../helpers/password');
 
-const createUser = function(user) {
-  return new Promise(function(resolve, reject) {
+const createUser = user => {
+  return new Promise((resolve, reject) => {
     const saltRounds = 10;
-    User.findOneModel(user.email)
+    return User.getOne(user.email)
       .then(u => {
-        helperPassword.encrypt(user.password).then(hash => {
+        return helperPassword.encrypt(user.password).then(hash => {
           user.password = hash;
 
-          User.createModel(user)
+          return User.createModel(user)
             .then(s => {
               resolve(s);
             })
@@ -66,7 +66,7 @@ exports.login = (req, res, next) => {
 
   User.findByEmail(user.email).then(u => {
     if (u) {
-      helperPassword.compare(user.password, u.password).then(isValid => {
+      return helperPassword.compare(user.password, u.password).then(isValid => {
         if (isValid) {
           const auth = sessionManager.encode(u);
 
