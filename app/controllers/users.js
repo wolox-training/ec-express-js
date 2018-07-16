@@ -6,12 +6,12 @@ const User = require('../models').User,
 const createUser = function(user) {
   return new Promise(function(resolve, reject) {
     const saltRounds = 10;
-    User.findOneModel(user.email)
+    return User.getOne(user.email)
       .then(u => {
-        helperPassword.encrypt(user.password).then(hash => {
+        return helperPassword.encrypt(user.password).then(hash => {
           user.password = hash;
 
-          User.createModel(user)
+          return User.createModel(user)
             .then(s => {
               resolve(s);
             })

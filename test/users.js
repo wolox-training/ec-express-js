@@ -4,6 +4,7 @@ const chai = require('chai'),
   should = chai.should(),
   User = require('./../app/models').User,
   errors = require('./../app/errors'),
+  helperPassword = require('./../app/helpers/password'),
   helperTest = require('./../app/helpers/test');
 
 describe('users', () => {
@@ -96,11 +97,25 @@ describe('users', () => {
           email: 'email1@wolox.com.ar',
           password: '12345678'
         })
-        .then(res => {
-          res.should.have.status(200);
-          dictum.chai(res);
-        })
-        .then(() => done());
+        .then(res =>
+          User.findOne({
+            where: {
+              firstName: 'Name',
+              lastName: 'Lastname',
+              email: 'email1@wolox.com.ar'
+            }
+          }).then(user => {
+            if (user) {
+              return helperPassword.compare('12345678', user.password).then(isValid => {
+                if (isValid) {
+                  res.should.have.status(200);
+                  dictum.chai(res);
+                  done();
+                }
+              });
+            }
+          })
+        );
     });
   });
 });
