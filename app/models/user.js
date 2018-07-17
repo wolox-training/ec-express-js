@@ -27,22 +27,21 @@ module.exports = (sequelize, DataTypes) => {
     {}
   );
 
-  User.associate = function(models) {};
   User.createModel = user => {
     return User.create(user).catch(err => {
       throw errors.savingError();
     });
   };
-  User.findOneModel = email => {
+  User.getOne = email => {
     return User.findOne({ where: { email } }).then(result => {
-      if (result !== null) {
-        throw errors.findingError();
+      if (result) {
+        throw errors.databaseError();
       }
     });
   };
   User.findByEmail = email => {
     return User.findOne({ where: { email } }).catch(err => {
-      throw errors.databaseError(err.detail);
+      throw errors.databaseError();
     });
   };
   User.findAllUsers = (limit = 3, offset = 0) => {
@@ -51,7 +50,7 @@ module.exports = (sequelize, DataTypes) => {
       limit,
       order: ['id']
     }).catch(err => {
-      throw errors.databaseError(err.detail);
+      throw errors.databaseError();
     });
   };
   return User;
