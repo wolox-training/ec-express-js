@@ -147,7 +147,7 @@ describe('albums', () => {
     });
     it('should fail because the user havent a bought album', done => {
       helperTest.createUser().then(u => {
-        helperTest.successfullLogin().then(res => {
+        return helperTest.successfullLogin().then(res => {
           chai
             .request(server)
             .get('/users/albums/1/photos')
