@@ -7,8 +7,8 @@ const User = require('../models').User,
 
 const createUser = user => {
   const saltRounds = 10;
-  return User.getOne(user.email)
-    .then(u => {
+  return User.getOne(user.email).then(u => {
+    if (!u) {
       return helperPassword.encrypt(user.password).then(hash => {
         user.password = hash;
         user.hash = hashToken.createHash();
@@ -21,10 +21,10 @@ const createUser = user => {
             throw err;
           });
       });
-    })
-    .catch(err => {
+    } else {
       throw errors.savingError('email_already_exists');
-    });
+    }
+  });
 };
 
 exports.create = (req, res, next) => {
@@ -66,11 +66,11 @@ exports.login = (req, res, next) => {
     if (u) {
       return helperPassword.compare(user.password, u.password).then(isValid => {
         if (isValid) {
-          const auth = sessionManager.encode(u);
+          const auth = sessionManager.encode(u, u.hash);
 
           res.status(200);
           res.set(sessionManager.HEADER_NAME, auth);
-          res.send({ user: u, token: `Your token is valid for ${process.env.TOKEN_EXPIRE_TIME}` });
+          res.send(u);
         } else {
           next(errors.invalidUser());
         }

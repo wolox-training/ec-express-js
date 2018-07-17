@@ -32,14 +32,10 @@ module.exports = (sequelize, DataTypes) => {
   Purchase.getOne = purchase => {
     const albumId = purchase.albumId;
     const UserId = purchase.UserId;
-    return Purchase.findOne({ where: { UserId, albumId } }).catch(err => {
-      throw errors.databaseError();
-    });
+    return Purchase.findOne({ where: { UserId, albumId } });
   };
   Purchase.findAllPurchasesFromUser = UserId => {
-    return Purchase.findAll({ where: { UserId } }).catch(err => {
-      throw errors.databaseError();
-    });
+    return Purchase.findAll({ where: { UserId } });
   };
   return Purchase;
 };

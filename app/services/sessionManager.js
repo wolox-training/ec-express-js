@@ -13,8 +13,8 @@ const verifyHash = token => {
   });
 };
 exports.HEADER_NAME = config.common.session.header_name;
-exports.encode = user => {
-  return jwt.sign({ user }, 'secretkey', { expiresIn: process.env.TOKEN_EXPIRE_TIME });
+exports.encode = (user, hash) => {
+  return jwt.sign({ user, hash }, 'secretkey', { expiresIn: process.env.TOKEN_EXPIRE_TIME });
 };
 exports.decode = token => {
   return jwt.decode(token);

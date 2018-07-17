@@ -1,7 +1,6 @@
 'use strict';
 
 const errors = require('../errors');
-const Purchase = require('../models').Purchase;
 
 module.exports = (sequelize, DataTypes) => {
   const User = sequelize.define(
@@ -44,24 +43,16 @@ module.exports = (sequelize, DataTypes) => {
     });
   };
   User.getOne = email => {
-    return User.findOne({ where: { email } }).then(result => {
-      if (result) {
-        throw errors.databaseError();
-      }
-    });
+    return User.findOne({ where: { email } });
   };
   User.findByEmail = email => {
-    return User.findOne({ where: { email } }).catch(err => {
-      throw errors.databaseError();
-    });
+    return User.findOne({ where: { email } });
   };
   User.findAllUsers = (limit = 3, offset = 0) => {
     return User.findAll({
       offset,
       limit,
       order: ['id']
-    }).catch(err => {
-      throw errors.databaseError();
     });
   };
   User.updateHash = (email, hash) => {
@@ -88,9 +79,7 @@ module.exports = (sequelize, DataTypes) => {
           email: user.email
         }
       }
-    ).catch(err => {
-      throw errors.updateError();
-    });
+    );
   };
   return User;
 };
