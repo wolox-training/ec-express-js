@@ -33,16 +33,10 @@ module.exports = (sequelize, DataTypes) => {
     });
   };
   User.getOne = email => {
-    return User.findOne({ where: { email } }).then(result => {
-      if (result) {
-        throw errors.databaseError();
-      }
-    });
+    return User.findOne({ where: { email } });
   };
   User.findByEmail = email => {
-    return User.findOne({ where: { email } }).catch(err => {
-      throw errors.databaseError();
-    });
+    return User.findOne({ where: { email } });
   };
   return User;
 };

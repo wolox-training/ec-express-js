@@ -5,25 +5,23 @@ const User = require('../models').User,
   helperPassword = require('../helpers/password');
 
 const createUser = user => {
-  return new Promise((resolve, reject) => {
-    const saltRounds = 10;
-    return User.getOne(user.email)
-      .then(u => {
-        return helperPassword.encrypt(user.password).then(hash => {
-          user.password = hash;
+  const saltRounds = 10;
+  return User.getOne(user.email).then(u => {
+    if (!u) {
+      return helperPassword.encrypt(user.password).then(hash => {
+        user.password = hash;
 
-          return User.createModel(user)
-            .then(s => {
-              resolve(s);
-            })
-            .catch(err => {
-              reject(err);
-            });
-        });
-      })
-      .catch(err => {
-        reject(errors.savingError('email_already_exists'));
+        return User.createModel(user)
+          .then(s => {
+            return s;
+          })
+          .catch(err => {
+            throw err;
+          });
       });
+    } else {
+      throw errors.savingError('email_already_exists');
+    }
   });
 };
 
@@ -51,9 +49,7 @@ exports.create = (req, res, next) => {
       res.status(200);
       res.end();
     })
-    .catch(err => {
-      next(err);
-    });
+    .catch(next);
 };
 
 exports.login = (req, res, next) => {
