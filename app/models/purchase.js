@@ -30,9 +30,7 @@ module.exports = (sequelize, DataTypes) => {
     });
   };
   Purchase.findAllPurchasesFromUser = UserId => {
-    return Purchase.findAll({ where: { UserId } }).catch(err => {
-      throw errors.databaseError();
-    });
+    return Purchase.findAll({ where: { UserId } });
   };
   return Purchase;
 };
