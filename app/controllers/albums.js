@@ -39,7 +39,7 @@ exports.buyAlbum = (req, res, next) => {
 
 exports.listOwn = (req, res, next) => {
   const idUser = req.params.user_id;
-  Purchase.findAllPurchasesFromUser(idUser).then(albums => {
+  return Purchase.findAllPurchasesFromUser(idUser).then(albums => {
     res.status(200);
     res.send({ albums });
   });
