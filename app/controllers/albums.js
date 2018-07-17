@@ -65,7 +65,7 @@ exports.listPhotos = (req, res, next) => {
         });
     } else {
       res.status(503);
-      next(errors.databaseError('the_album_not_was_bought'));
+      next(errors.defaultError('the_album_not_was_bought'));
     }
   });
 };
