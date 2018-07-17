@@ -11,7 +11,7 @@ describe('albums', () => {
   describe('/albums GET', () => {
     it('should be succesfull', done => {
       helperTest.createUser().then(u => {
-        helperTest.successfullLogin().then(res => {
+        return helperTest.successfullLogin().then(res => {
           chai
             .request(server)
             .get('/albums')
@@ -42,7 +42,7 @@ describe('albums', () => {
   describe('/albums/:id POST', () => {
     it('should be succesfull', done => {
       helperTest.createUser().then(u => {
-        helperTest.successfullLogin().then(res => {
+        return helperTest.successfullLogin().then(res => {
           chai
             .request(server)
             .post('/albums/3')
