@@ -29,7 +29,7 @@ module.exports = (sequelize, DataTypes) => {
       }
     });
   };
-  Purchase.findOneModel = purchase => {
+  Purchase.getOne = purchase => {
     const albumId = purchase.albumId;
     const UserId = purchase.UserId;
     return Purchase.findOne({ where: { UserId, albumId } }).catch(err => {

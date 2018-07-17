@@ -5,12 +5,12 @@ const User = require('../models').User,
   helperPassword = require('../helpers/password'),
   hashToken = require('../helpers/hashToken');
 
-const createUser = function(user) {
-  return new Promise(function(resolve, reject) {
+const createUser = user => {
+  return new Promise((resolve, reject) => {
     const saltRounds = 10;
-    return User.findOneModel(user.email)
+    return User.getOne(user.email)
       .then(u => {
-        helperPassword.encrypt(user.password).then(hash => {
+        return helperPassword.encrypt(user.password).then(hash => {
           user.password = hash;
           user.hash = hashToken.createHash();
 
@@ -66,9 +66,9 @@ exports.login = (req, res, next) => {
       }
     : {};
 
-  User.findByEmail(user.email).then(u => {
+  return User.findByEmail(user.email).then(u => {
     if (u) {
-      helperPassword.compare(user.password, u.password).then(isValid => {
+      return helperPassword.compare(user.password, u.password).then(isValid => {
         if (isValid) {
           const auth = sessionManager.encode(u);
 
@@ -86,7 +86,7 @@ exports.login = (req, res, next) => {
 };
 
 exports.listAll = (req, res, next) => {
-  User.findAllUsers(req.query.limit, req.query.offset).then(users => {
+  return User.findAllUsers(req.query.limit, req.query.offset).then(users => {
     res.status(200);
     res.send({ users });
   });
@@ -103,10 +103,10 @@ exports.updateOrCreate = (req, res, next) => {
       }
     : {};
   const email = user.email;
-  User.findByEmail(user.email)
+  return User.findByEmail(user.email)
     .then(u => {
       if (u) {
-        User.updateModel(user)
+        return User.updateModel(user)
           .then(response => {
             res.send(200);
             res.end();
@@ -137,7 +137,7 @@ exports.loggedUser = (req, res, next) => {
 exports.invalidateAll = (req, res, next) => {
   const hash = hashToken.createHash();
   const user = req.user.email;
-  User.updateHash(user, hash)
+  return User.updateHash(user, hash)
     .then(response => {
       res.status(200);
       res.send({ hash: 'changed', sessions: 'All sessions was invalidated' });

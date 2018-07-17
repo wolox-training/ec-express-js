@@ -11,7 +11,7 @@ describe('albums', () => {
   describe('/albums GET', () => {
     it('should be succesfull', done => {
       helperTest.createUser().then(u => {
-        helperTest.successfullLogin().then(res => {
+        return helperTest.successfullLogin().then(res => {
           chai
             .request(server)
             .get('/albums')
@@ -42,7 +42,7 @@ describe('albums', () => {
   describe('/albums/:id POST', () => {
     it('should be succesfull', done => {
       helperTest.createUser().then(u => {
-        helperTest.successfullLogin().then(res => {
+        return helperTest.successfullLogin().then(res => {
           chai
             .request(server)
             .post('/albums/3')
@@ -85,7 +85,7 @@ describe('albums', () => {
   });
   it('should fail because a normal user cant see the albums of another user', done => {
     helperTest.createUser().then(u => {
-      helperTest.successfullLogin().then(res => {
+      return helperTest.successfullLogin().then(res => {
         chai
           .request(server)
           .get('/users/2/albums')
@@ -102,7 +102,7 @@ describe('albums', () => {
   });
   it('should be succesfull because an admin user can see the albums of another users', done => {
     helperTest.createUser(true).then(u => {
-      helperTest.successfullLogin().then(res => {
+      return helperTest.successfullLogin().then(res => {
         chai
           .request(server)
           .get('/users/2/albums')
@@ -117,8 +117,8 @@ describe('albums', () => {
     });
   });
   it('should be succesfull, a user can see his albums', done => {
-    helperTest.createUser().then(u => {
-      helperTest.successfullLogin().then(res => {
+    helperTest.createUser(true).then(u => {
+      return helperTest.successfullLogin().then(res => {
         chai
           .request(server)
           .get('/users/1/albums')
@@ -147,7 +147,7 @@ describe('albums', () => {
     });
     it('should fail because the user havent a bought album', done => {
       helperTest.createUser().then(u => {
-        helperTest.successfullLogin().then(res => {
+        return helperTest.successfullLogin().then(res => {
           chai
             .request(server)
             .get('/users/albums/1/photos')
@@ -164,8 +164,8 @@ describe('albums', () => {
     });
     it('should be succesfull', done => {
       helperTest.createUser().then(u => {
-        helperTest.successfullLogin().then(log => {
-          helperTest.buyAlbum().then(res => {
+        return helperTest.successfullLogin().then(log => {
+          return helperTest.buyAlbum().then(res => {
             chai
               .request(server)
               .get('/users/albums/1/photos')
