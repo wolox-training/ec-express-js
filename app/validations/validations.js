@@ -7,8 +7,8 @@ exports.userValidation = [
   check('lastName')
     .not()
     .isEmpty(),
-  check('email', 'email_is_not_valid').isEmail(),
-  check('email', 'the_email_must_belong_to_the_wolox_domain').contains('@wolox.com.ar'),
-  check('password', 'the_password_must_have_at_least_8_characters').isLength({ min: 8 }),
-  check('password', 'the_password_must_be_alphanumeric').isAlphanumeric()
+  check('email', 'email is not valid').isEmail(),
+  check('email', 'the email must belong to the wolox domain').contains('@wolox.com.ar'),
+  check('password', 'the password must have at least 8 characters').isLength({ min: 8 }),
+  check('password', 'the password must be alphanumeric').isAlphanumeric()
 ];
