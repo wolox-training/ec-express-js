@@ -60,7 +60,7 @@ exports.login = (req, res, next) => {
       }
     : {};
 
-  User.findByEmail(user.email).then(u => {
+  return User.findByEmail(user.email).then(u => {
     if (u) {
       return helperPassword.compare(user.password, u.password).then(isValid => {
         if (isValid) {
