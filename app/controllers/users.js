@@ -64,7 +64,7 @@ exports.login = (req, res, next) => {
       }
     : {};
 
-  User.findByEmail(user.email).then(u => {
+  return User.findByEmail(user.email).then(u => {
     if (u) {
       return helperPassword.compare(user.password, u.password).then(isValid => {
         if (isValid) {
@@ -84,7 +84,7 @@ exports.login = (req, res, next) => {
 };
 
 exports.listAll = (req, res, next) => {
-  User.findAllUsers(req.query.limit, req.query.offset).then(users => {
+  return User.findAllUsers(req.query.limit, req.query.offset).then(users => {
     res.status(200);
     res.send({ users });
   });
