@@ -1,7 +1,6 @@
 'use strict';
 
 const errors = require('../errors');
-const Purchase = require('../models').Purchase;
 
 module.exports = (sequelize, DataTypes) => {
   const User = sequelize.define(
@@ -27,17 +26,11 @@ module.exports = (sequelize, DataTypes) => {
       administrator: {
         type: DataTypes.BOOLEAN,
         defaultValue: false
-      },
-      hash: {
-        type: DataTypes.STRING
       }
     },
     {}
   );
 
-  User.associate = function(models) {
-    User.hasMany(models.Purchase);
-  };
   User.createModel = user => {
     return User.create(user).catch(err => {
       throw errors.savingError();
@@ -47,31 +40,13 @@ module.exports = (sequelize, DataTypes) => {
     return User.findOne({ where: { email } });
   };
   User.findByEmail = email => {
-    return User.findOne({ where: { email } }).catch(err => {
-      throw errors.databaseError();
-    });
+    return User.findOne({ where: { email } });
   };
   User.findAllUsers = (limit = 3, offset = 0) => {
     return User.findAll({
       offset,
       limit,
       order: ['id']
-    }).catch(err => {
-      throw errors.databaseError();
-    });
-  };
-  User.updateHash = (email, hash) => {
-    return User.update(
-      {
-        hash
-      },
-      {
-        where: {
-          email
-        }
-      }
-    ).catch(err => {
-      throw errors.updateError();
     });
   };
   User.updateModel = user => {
@@ -84,9 +59,7 @@ module.exports = (sequelize, DataTypes) => {
           email: user.email
         }
       }
-    ).catch(err => {
-      throw errors.updateError();
-    });
+    );
   };
   return User;
 };
