@@ -37,24 +37,16 @@ module.exports = (sequelize, DataTypes) => {
     });
   };
   User.getOne = email => {
-    return User.findOne({ where: { email } }).then(result => {
-      if (result) {
-        throw errors.databaseError();
-      }
-    });
+    return User.findOne({ where: { email } });
   };
   User.findByEmail = email => {
-    return User.findOne({ where: { email } }).catch(err => {
-      throw errors.databaseError();
-    });
+    return User.findOne({ where: { email } });
   };
   User.findAllUsers = (limit = 3, offset = 0) => {
     return User.findAll({
       offset,
       limit,
       order: ['id']
-    }).catch(err => {
-      throw errors.databaseError();
     });
   };
   User.updateModel = user => {
@@ -67,9 +59,7 @@ module.exports = (sequelize, DataTypes) => {
           email: user.email
         }
       }
-    ).catch(err => {
-      throw errors.updateError();
-    });
+    );
   };
   return User;
 };
