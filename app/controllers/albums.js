@@ -50,7 +50,7 @@ exports.listPhotos = (req, res, next) => {
     UserId: req.user.id,
     albumId: req.params.id
   };
-  Purchase.getOne(purchase).then(album => {
+  return Purchase.getOne(purchase).then(album => {
     if (album) {
       return fetch(`https://jsonplaceholder.typicode.com/photos?albumId=${purchase.albumId}`)
         .then(response => response.json())
@@ -65,7 +65,7 @@ exports.listPhotos = (req, res, next) => {
         });
     } else {
       res.status(503);
-      next(errors.databaseError('the_album_not_was_bought'));
+      next(errors.defaultError('the_album_not_was_bought'));
     }
   });
 };
