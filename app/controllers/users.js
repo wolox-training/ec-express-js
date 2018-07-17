@@ -118,3 +118,8 @@ exports.updateOrCreate = (req, res, next) => {
     })
     .catch(next);
 };
+
+exports.loggedUser = (req, res, next) => {
+  res.status(200);
+  res.send(req.user);
+};

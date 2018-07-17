@@ -235,13 +235,13 @@ describe('users', () => {
       });
     });
   });
-  describe('users/me POST', () => {
+  describe('users/me GET', () => {
     it('should be succesfull, the token is already active', done => {
       helperTest.createUser().then(u => {
         return helperTest.successfullLogin().then(log => {
           chai
             .request(server)
-            .post('/users/me')
+            .get('/users/me')
             .send(u)
             .set(sessionManager.HEADER_NAME, `Bearer ${log.headers[sessionManager.HEADER_NAME]}`)
             .then(res => {
@@ -260,7 +260,7 @@ describe('users', () => {
         return helperTest.successfullLogin().then(log => {
           chai
             .request(server)
-            .post('/users/me')
+            .get('/users/me')
             .send(u)
             .set(sessionManager.HEADER_NAME, `Bearer ${log.headers[sessionManager.HEADER_NAME]}`)
             .catch(err => {

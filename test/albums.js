@@ -153,7 +153,7 @@ describe('albums', () => {
             .get('/users/albums/1/photos')
             .set(sessionManager.HEADER_NAME, `Bearer ${res.headers[sessionManager.HEADER_NAME]}`)
             .catch(err => {
-              err.should.have.status(503);
+              err.should.have.status(500);
               err.response.should.be.json;
               err.response.body.should.have.property('message', 'the_album_not_was_bought');
               err.response.body.should.have.property('internal_code');
