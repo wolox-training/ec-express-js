@@ -50,7 +50,7 @@ exports.listPhotos = (req, res, next) => {
     UserId: req.user.id,
     albumId: req.params.id
   };
-  Purchase.findOneModel(purchase).then(album => {
+  Purchase.getOne(purchase).then(album => {
     if (album) {
       return fetch(`https://jsonplaceholder.typicode.com/photos?albumId=${purchase.albumId}`)
         .then(response => response.json())
