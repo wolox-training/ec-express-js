@@ -6,27 +6,25 @@ const User = require('../models').User,
   hashToken = require('../helpers/hashToken');
 
 const createUser = user => {
-  return new Promise((resolve, reject) => {
-    const saltRounds = 10;
-    return User.getOne(user.email)
-      .then(u => {
-        return helperPassword.encrypt(user.password).then(hash => {
-          user.password = hash;
-          user.hash = hashToken.createHash();
+  const saltRounds = 10;
+  return User.getOne(user.email)
+    .then(u => {
+      return helperPassword.encrypt(user.password).then(hash => {
+        user.password = hash;
+        user.hash = hashToken.createHash();
 
-          return User.createModel(user)
-            .then(s => {
-              resolve(s);
-            })
-            .catch(err => {
-              reject(err);
-            });
-        });
-      })
-      .catch(err => {
-        reject(errors.savingError('email_already_exists'));
+        return User.createModel(user)
+          .then(s => {
+            return s;
+          })
+          .catch(err => {
+            throw err;
+          });
       });
-  });
+    })
+    .catch(err => {
+      throw errors.savingError('email_already_exists');
+    });
 };
 
 exports.create = (req, res, next) => {
@@ -53,9 +51,7 @@ exports.create = (req, res, next) => {
       res.status(200);
       res.end();
     })
-    .catch(err => {
-      next(err);
-    });
+    .catch(next);
 };
 
 exports.login = (req, res, next) => {
@@ -111,9 +107,7 @@ exports.updateOrCreate = (req, res, next) => {
             res.send(200);
             res.end();
           })
-          .catch(err => {
-            next(err);
-          });
+          .catch(next);
       } else {
         createUser(user)
           .then(s => {
@@ -121,9 +115,7 @@ exports.updateOrCreate = (req, res, next) => {
             res.status(200);
             res.end();
           })
-          .catch(err => {
-            next(err);
-          });
+          .catch(next);
       }
     })
     .catch(next);
@@ -143,7 +135,5 @@ exports.invalidateAll = (req, res, next) => {
       res.send({ hash: 'changed', sessions: 'All sessions was invalidated' });
       res.end();
     })
-    .catch(err => {
-      next(err);
-    });
+    .catch(next);
 };
