@@ -6,7 +6,7 @@ const fetch = require('node-fetch'),
   errors = require('../errors');
 
 exports.listAll = (req, res, next) => {
-  fetch('https://jsonplaceholder.typicode.com/albums')
+  return fetch('https://jsonplaceholder.typicode.com/albums')
     .then(response => response.json())
     .then(json => {
       res.status(200);
@@ -39,7 +39,7 @@ exports.buyAlbum = (req, res, next) => {
 
 exports.listOwn = (req, res, next) => {
   const idUser = req.params.user_id;
-  Purchase.findAllPurchasesFromUser(idUser).then(albums => {
+  return Purchase.findAllPurchasesFromUser(idUser).then(albums => {
     res.status(200);
     res.send({ albums });
   });
@@ -50,9 +50,9 @@ exports.listPhotos = (req, res, next) => {
     UserId: req.user.id,
     albumId: req.params.id
   };
-  Purchase.findOneModel(purchase).then(album => {
+  return Purchase.getOne(purchase).then(album => {
     if (album) {
-      fetch(`https://jsonplaceholder.typicode.com/photos?albumId=${purchase.albumId}`)
+      return fetch(`https://jsonplaceholder.typicode.com/photos?albumId=${purchase.albumId}`)
         .then(response => response.json())
         .then(json => {
           res.status(200);
