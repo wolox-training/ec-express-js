@@ -3,8 +3,8 @@ const User = require('../models').User,
   errors = require('../errors'),
   helperPassword = require('../helpers/password');
 
-const createUser = function(user) {
-  return new Promise(function(resolve, reject) {
+const createUser = user => {
+  return new Promise((resolve, reject) => {
     const saltRounds = 10;
     return User.getOne(user.email)
       .then(u => {
