@@ -6,7 +6,7 @@ const fetch = require('node-fetch'),
   errors = require('../errors');
 
 exports.listAll = (req, res, next) => {
-  fetch('https://jsonplaceholder.typicode.com/albums')
+  return fetch('https://jsonplaceholder.typicode.com/albums')
     .then(response => response.json())
     .then(json => {
       res.status(200);
